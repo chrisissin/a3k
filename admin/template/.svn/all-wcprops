@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/a3k/!svn/ver/98/admin/template
+END
+login.htm
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/a3k/!svn/ver/2/admin/template/login.htm
+END
+addQuest.htm
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/a3k/!svn/ver/36/admin/template/addQuest.htm
+END
+welcome.htm
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/a3k/!svn/ver/2/admin/template/welcome.htm
+END
+questList.htm
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/a3k/!svn/ver/36/admin/template/questList.htm
+END
+listen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/a3k/!svn/ver/2/admin/template/listen.htm
+END
+broadcast.htm
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/a3k/!svn/ver/2/admin/template/broadcast.htm
+END
+editQuest.htm
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/a3k/!svn/ver/98/admin/template/editQuest.htm
+END

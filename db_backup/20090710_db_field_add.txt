@@ -1,0 +1,1 @@
+﻿ALTER TABLE `a3k_items` ADD `item_mixable` TEXT NULL COMMENT '合成資料JSON';

@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<style type="text/css">
+
+a {
+	cursor: pointer;
+	cursor: hand;
+}
+.createbg_01 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_01.gif);
+	height: 19px;
+	width: 73px;
+}
+.createbg_02 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_02.gif);
+	height: 19px;
+	width: 261px;
+}
+.createbg_03 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_03.gif);
+	height: 19px;
+	width: 15px;
+}
+.createbg_04 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_04.gif);
+	height: 15px;
+	width: 15px;
+}
+.createbg_05 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_05.gif);
+	height: 15px;
+	width: 319px;
+}
+.createbg_06 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_06.gif);
+	height: 15px;
+	width: 15px;
+}
+.createbg_07 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_07.gif);
+	height: 281px;
+	width: 15px;
+}
+.createbg_08 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_08.gif);
+	height: 281px;
+	width: 319px;
+}
+.createbg_09 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_09.gif);
+	height: 281px;
+	width: 15px;
+}
+.createbg_10 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_10.gif);
+	height: 15px;
+	width: 15px;
+}
+.createbg_11 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_11.gif);
+	height: 15px;
+	width: 319px;
+}
+.createbg_12 {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_12.gif);
+	height: 15px;
+	width: 15px;
+}
+.create_btn,.create_btn:link,.create_btn:visited,.create_btn:active {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_btn.gif);
+	height: 17px;
+	width: 190px;
+	background-position: left;
+	display: block;
+	padding: 0px;
+}
+.create_btn:hover {
+	background-position: right;
+}
+.create_btn2,.create_btn2:link,.create_btn2:visited,.create_btn2:active {
+	background-image: url(http://funland2.myweb.hinet.net/a3k/images/create_btn2.gif);
+	height: 17px;
+	width: 190px;
+	background-position: left;
+	display: block;
+	padding: 0px;
+}
+.create_btn2:hover {
+	background-position: right;
+}
+
+
+</style>
+
+<script src="./js/create.js"></script>
+</head>
+
+<body>
+<table width="349" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><table width="349" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="73" height="19" class="createbg_01"></td>
+        <td width="261" height="19" class="createbg_02"></td>
+        <td width="15" height="19" class="createbg_03"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="15" height="15" class="createbg_04"></td>
+    <td width="319" height="15" class="createbg_05"></td>
+    <td width="15" height="15" class="createbg_06"></td>
+  </tr>
+  <tr>
+    <td height="281" class="createbg_07"></td>
+    <td height="281" align="center" valign="middle" class="createbg_08"><table width="190" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="2"><a class="create_btn"></a></td>
+      </tr>
+      <tr>
+        <td height="20" colspan="2"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><a class="create_btn2"></a></td>
+      </tr>
+      <tr>
+        <td height="80" colspan="2"></td>
+      </tr>
+      <tr>
+        <td width="149" height="16" align="right"></td>
+        <td width="41" height="16"></td>
+      </tr>
+    </table></td>
+    <td height="281" class="createbg_09"></td>
+  </tr>
+  <tr>
+    <td width="15" height="15" class="createbg_10"></td>
+    <td width="319" height="15" class="createbg_11"></td>
+    <td width="15" height="15" class="createbg_12"></td>
+  </tr>
+</table>
+</body>
+</html>

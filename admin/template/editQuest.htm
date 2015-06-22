@@ -1,0 +1,163 @@
+<table class="quest" cellspacing="0">
+  <thead>
+    
+  </thead>
+  <tbody>
+    <tr>
+      <td>任務名稱</td>
+      <td><input type="text" id="title" value=""/></td>
+    </tr>
+    
+    <tr>
+      <td>委託人</td>
+      <td><input type="text" id="requester" value=""/></td>
+    </tr>
+    
+    <tr>
+      <td>委託人圖像</td>
+      <td><input type="text" id="img" value=""/></td>
+    </tr>
+    
+    <tr>
+      <td>任務描述</td>
+      <td><textarea id="description"></textarea></td>
+    </tr>
+    
+    <tr>
+      <td>任務地圖名稱</td>
+      <td><input type="text" id="map_name" value=""/></td>
+    </tr>
+    
+    <tr>
+      <td>任務地圖id</td>
+      <td><input type="text" id="map_id" value=""/></td>
+    </tr>
+    
+    <tr>
+      <td>任務目的地圖名稱</td>
+      <td><input type="text" id="dest_map" value=""/></td>
+    </tr>
+    
+    <tr>
+      <td>任務限制</td>
+      <td>
+      	<input type="checkbox" id="instant" />立即完成性任務
+        <table class="quest" cellspacing="0">
+          <tbody>
+           <tr>
+             <td>任務顯示等級</td>
+             <td><input type="text" id="limit_show_lv" value="0"/></td>
+           </tr>
+           
+           <tr>
+             <td>任務承接等級</td>
+             <td><input type="text" id="limit_get_lv" value="0"/></td>
+           </tr>
+           
+           <tr>
+             <td>職業限制</td>
+             <td><input type="text" id="limit_job" value=""/> <input type="button" class="helpJob" value="說明"></td>
+           </tr>
+           
+           <tr>
+             <td>持有物品</td>
+             <td><input type="text" id="limit_item" value=""/> <input type="button" class="helpItem" value="說明"></td>
+           </tr>
+           
+           <tr>
+             <td>前置任務</td>
+             <td><input type="text" id="limit_quest" value=""/> <input type="button" class="helpQuest" value="說明"></td>
+           </tr>
+           
+           <tr>
+             <td>日期限制</td>
+             <td><input type="text" id="limit_time" value=""/> <input type="button" id="popup1" value="設定"/> <input type="button" class="helpDate" value="說明"></td>
+           </tr>
+           
+           <tr>
+             <td>文字描述</td>
+             <td><textarea id="limit_description"></textarea></td>
+           </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>任務內容</td>
+      <td>
+        <table class="quest" cellspacing="0">
+          <tbody>
+           <tr>
+             <td>擊倒怪物</td>
+             <td><input type="text" id="need_monster" value=""/> <input type="button" class="helpMonster" value="說明"></td>
+           </tr>
+           
+           <tr>
+             <td>勝利次數</td>
+             <td><input type="text" id="need_fight" value=""/> <input type="button" class="helpFight" value="說明"></td>
+           </tr>
+           
+           <tr>
+             <td>委託物品</td>
+             <td><input type="text" id="need_item" value=""/> <input type="button" class="helpItem" value="說明"></td>
+           </tr>
+
+           <tr>
+             <td>文字描述</td>
+             <td><textarea id="need_description"></textarea></td>
+           </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>任務獎勵</td>
+      <td>
+        <table class="quest" cellspacing="0">
+          <tbody>
+           <tr>
+             <td>經驗值</td>
+             <td><input type="text" id="award_exp" value="0"/></td>
+           </tr>
+           
+           <tr>
+             <td>金錢</td>
+             <td><input type="text" id="award_money" value="0"/></td>
+           </tr>
+           
+           <tr>
+             <td>物品</td>
+             <td><input type="text" id="award_item" value=""/> <input type="button" class="helpItem" value="說明"></td>
+           </tr>
+           
+           <tr>
+             <td>學點</td>
+             <td><input type="text" id="award_point" value="0"/></td>
+           </tr>
+           
+           <tr>
+             <td>武將</td>
+             <td><input type="text" id="award_fellow" value=""/> <input type="button" class="helpFellow" value="說明"></td>
+           </tr>
+
+           <tr>
+             <td>文字描述</td>
+             <td><textarea id="award_description"></textarea></td>
+           </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>任務有效期限</td>
+      <td><input type="text" id="expire_time" value=""/> <input type="button" id="popup2" value="設定"/></td>
+    </tr>
+    
+    <tr>
+      <td colspan="2" align="center"><input type="button" id="sendQuest" value="編輯"/></td>
+    </tr>
+  </tbody>
+</table>

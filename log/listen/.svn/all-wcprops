@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/a3k/!svn/ver/123/log/listen
+END
+2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/a3k/!svn/ver/115/log/listen/2.txt
+END
+4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/a3k/!svn/ver/123/log/listen/4.txt
+END
+m1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/a3k/!svn/ver/2/log/listen/m1.txt
+END
+.txt
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/a3k/!svn/ver/2/log/listen/.txt
+END
+0.txt
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/a3k/!svn/ver/2/log/listen/0.txt
+END

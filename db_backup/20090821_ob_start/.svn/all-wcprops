@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/a3k/!svn/ver/381/db_backup/20090821_ob_start
+END
+20090821_modtable_annouce.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/a3k/!svn/ver/376/db_backup/20090821_ob_start/20090821_modtable_annouce.sql
+END
+200908211002_a3k_ob_staticdata.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/a3k/!svn/ver/364/db_backup/20090821_ob_start/200908211002_a3k_ob_staticdata.sql
+END
+200908211234_a3k_monster_fix.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/a3k/!svn/ver/376/db_backup/20090821_ob_start/200908211234_a3k_monster_fix.sql
+END
+admin_sqls.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/a3k/!svn/ver/381/db_backup/20090821_ob_start/admin_sqls.txt
+END
+200908211234_a3k_monster_b4_fix.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/a3k/!svn/ver/376/db_backup/20090821_ob_start/200908211234_a3k_monster_b4_fix.sql
+END

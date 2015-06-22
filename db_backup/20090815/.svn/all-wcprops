@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/a3k/!svn/ver/296/db_backup/20090815
+END
+a3k_update_20090815.sql
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/a3k/!svn/ver/296/db_backup/20090815/a3k_update_20090815.sql
+END
+a3k_b4_updates_20090815.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/a3k/!svn/ver/296/db_backup/20090815/a3k_b4_updates_20090815.sql
+END

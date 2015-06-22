@@ -1,0 +1,278 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <title>Age of 3 Kingdoms</title>
+    <link href="css/a3k.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="760" border="0" cellpadding="0" cellspacing="0" background="images_scen/m0050.jpg" id="thWholething"  >
+
+  <tr>
+    <td><table width="760" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="224" height="85">
+          <ul class="fight_icon">
+         <li class="icon1_leftbox"></li>
+         <li class="icon1_left" style="display:none" id="p_idle_ico" name="p_idle_ico"></li>
+         <li class="icon2_leftbox"></li>
+         <li class="icon2_left"  style="display:none" id="pf_idle_ico" name="pf_idle_ico"></li>
+         <li class="item" >
+           <table border="0" cellpadding="0" cellspacing="0">
+             <tr><!-- players -->
+               <td width="45" height="15" class="fight_information_text">體　力:</td>
+               <td width="81" height="15" class="fight_information_text"><span id="p_hp_now" name="p_hp_now">?</span> / <span id="p_hp_full" name="p_hp_full">?</span></td>
+             </tr>
+             <tr>
+               <td width="45" height="15" class="fight_information_text2">精神力:</td>
+               <td width="81" height="15" class="fight_information_text2"><span id="p_mn_now" name="p_mn_now">?</span> / <span id="p_mn_full" name="p_mn_full">?</span></td>
+             </tr>
+           </table>
+         </li>
+         <li class="item2" >
+           <table border="0" cellpadding="0" cellspacing="0">
+             <tr><!-- players fellow-->
+               <td width="45" height="15" class="fight_information_text">體　力:</td>
+               <td width="81" height="15" class="fight_information_text"><span id="pf_hp_now" name="pf_hp_now"/>?</span> / <span id="pf_hp_full" name="pf_hp_full">?</span></td>
+             </tr>
+             <tr>
+               <td width="45" height="15" class="fight_information_text2">精神力:</td>
+               <td width="81" height="15" class="fight_information_text2"><span id="pf_mn_now" name="pf_mn_now"/>?</span> / <span id="pf_mn_full" name="pf_mn_full">?</span></td>
+             </tr>
+           </table>
+         </li>
+          </ul>        </td>
+			<td width="308" height="85" align="center">
+                <ul class="message">
+         <li class="box1">
+           <div id="message"><table width="312" border="0" cellpadding="0" cellspacing="0">
+             <tr>
+               <td height="18"><table width="312" border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td width="14" height="18" class="fightmessagebg1"></td>
+                     <td width="284" height="18" align="right" valign="bottom" class="fightmessagebg2"><div class="fightbtnmessagebox"><table width="18" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="9" height="9"><a   class="fight_message_close" id="fight_message_close" name="fight_message_close" ></a></td>
+    <td width="9" height="9"><a   class="fight_message_open" id="fight_message_open" name="fight_message_open" ></a></td>
+  </tr>
+</table>
+</div></td>
+                     <td width="14" height="18" class="fightmessagebg3" ></td>
+                   </tr>
+               </table></td>
+             </tr>
+             <tr id="ftmsgfield" name="ftmsgfield">
+               <td width="312" height="103"><table width="312" border="0" cellpadding="0" cellspacing="0" >
+                   <tr>
+                     <td width="14" height="103" class="fightmessagebg4"></td>
+                     <td width="284" height="103" valign="top" class="fightmessagebg5" >
+                     	<div class="messagetext" id="messagetext" name="messagetext" ></div></td>
+                     <td width="14" height="103" class="fightmessagebg6"></td>
+                   </tr>
+               </table></td>
+             </tr>
+             <tr>
+               <td height="18"><table width="312" border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td width="14" height="18" class="fightmessagebg7"></td>
+                     <td width="284" height="18" class="fightmessagebg8"></td>
+                     <td width="14" height="18" class="fightmessagebg9"></td>
+                   </tr>
+               </table></td>
+             </tr>
+           </table></div>
+         </li>
+        </ul></td>
+        <td width="224" height="85">
+        <ul class="fight_icon">
+         <li class="icon1_rightbox"></li>
+         <li class="icon1_right" style="display:none" id="m_idle_ico" name="m_idle_ico"/></li>
+         <li class="icon2_rightbox"></li>
+         <li class="icon2_right" style="display:none" id="mf_idle_ico" name="mf_idle_ico" ></li>
+         <li class="item3" >
+           <table border="0" cellpadding="0" cellspacing="0">
+             <tr><!-- defeders felllow-->
+               <td width="45" height="15" class="fight_information_text">體　力:</td>
+               <td width="81" height="15" class="fight_information_text"><span id="mf_hp_now" name="mf_hp_now">?</span> / <span id="mf_hp_full" name="mf_hp_full">?</span></td>
+             </tr>
+             <tr>
+               <td width="45" height="15" class="fight_information_text2">精神力:</td>
+               <td width="81" height="15" class="fight_information_text2"><span id="mf_mn_now" name="mf_mn_now">?</span> / <span id="mf_mn_full" name="mf_mn_full">?</span></td>
+             </tr>
+           </table>
+         </li>
+         <li class="item4" >
+           <table border="0" cellpadding="0" cellspacing="0">
+             <tr> <!-- defender info -->
+               <td width="45" height="15" class="fight_information_text">體　力:</td>
+               <td width="81" height="15" class="fight_information_text"><span id="m_hp_now" name="m_hp_now">?</span> / <span id="m_hp_full" name="m_hp_full">?</span></td>
+             </tr>
+             <tr>
+               <td width="45" height="15" class="fight_information_text2">精神力:</td>
+               <td width="81" height="15" class="fight_information_text2"><span id="m_mn_now" name="m_mn_now">?</span> / <span id="m_mn_full" name="m_mn_full">?</span></td>
+             </tr>
+           </table>
+         </li>
+        </ul></td>
+      </tr>
+    </table></td>
+  </tr>
+  
+  <tr>
+    <td width="760" height="235">
+       
+        <ul class="fight_people">
+         <li class="box1">
+         	<div class="fightdiv_05" style="display:none" id="pf_idle_img" name="pf_idle_img">
+         		<div class="fightdiv_18">
+           <table width="170" border="0" cellspacing="0" cellpadding="0">
+             <tr>
+               <td height="16" align="center"><table border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td width="6" height="16" class="fightdiv_name1"></td>
+                     <td height="16" class="fightdiv_name2" id="pf_idle_name" name="pf_idle_name" ></td>
+                     <td width="6" height="16" class="fightdiv_name3"></td>
+                   </tr>
+               </table></td>
+             </tr>
+           </table>
+         </div>
+         		</div></li>
+         <li class="box2"><div class="fightdiv_06" style="display:none" id="p_idle_img" name="p_idle_img">
+         	<div class="fightdiv_18"><span class="fightdiv_name"  ></span></div>
+        <div class="fightdiv_18">
+           <table width="170" border="0" cellspacing="0" cellpadding="0">
+             <tr>
+               <td height="16" align="center"><table border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td width="6" height="16" class="fightdiv_name1"></td>
+                     <td height="16" class="fightdiv_name2" id="p_idle_name" name="p_idle_name"></td>
+                     <td width="6" height="16" class="fightdiv_name3"></td>
+                   </tr>
+               </table></td>
+             </tr>
+           </table>
+         </div>         	
+         	</div></li>
+         <li class="box7">         </li>
+         <li class="box3">
+         	<div class="fightdiv_07" id="fighter_img" name="fighter_img" style="display:none" >
+         	<div class="fightdiv_18">
+           <table width="170" border="0" cellspacing="0" cellpadding="0">
+             <tr>
+               <td height="16" align="center"><table border="0" cellspacing="0" cellpadding="0">
+                 <tr>
+                   <td width="6" height="16" class="fightdiv_name1"></td>
+                   <td height="16" class="fightdiv_name2" id="figher_name" name="fighter_name"></td>
+                   <td width="6" height="16" class="fightdiv_name3"></td>
+                 </tr>
+               </table></td>
+             </tr>
+           </table>
+           </div>
+         	</div> 
+ 		</li>
+         <li class="box19"></li>
+         <li class="box8"></li>
+         <li class="box4"><div class="fightdiv_08" style="display:none" id="m_idle_img" name="m_idle_img">
+         	<div class="fightdiv_18">
+           <table width="170" border="0" cellspacing="0" cellpadding="0">
+             <tr>
+               <td height="16" align="center"><table border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td width="6" height="16" class="fightdiv_name1"></td>
+                     <td height="16" class="fightdiv_name2" id="m_idle_name" name="m_idle_name"></td>
+                     <td width="6" height="16" class="fightdiv_name3"></td>
+                   </tr>
+               </table></td>
+             </tr>
+           </table>
+         </div>
+       	  </div></li>
+         <li class="box9">         </li>
+         <li class="box5"><div class="fightdiv_09" style="display:none" id="mf_idle_img" name="mf_idle_img">
+         	<div class="fightdiv_18">
+           <table width="170" border="0" cellspacing="0" cellpadding="0">
+             <tr>
+               <td height="16" align="center"><table border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td width="6" height="16" class="fightdiv_name1"></td>
+                     <td height="16" class="fightdiv_name2" id="mf_idle_name" name="mf_idle_name"></td>
+                     <td width="6" height="16" class="fightdiv_name3"></td>
+                   </tr>
+               </table></td>
+             </tr>
+           </table>
+         </div>
+         	</div></li>
+        </ul>        
+    </td>
+  </tr>
+  <tr>
+    <td><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+      	
+        <td width="8" height="40"></td>
+        <td height="40">
+        <ul class="fight_icon3">
+         <li class="icon3_left" ><div class="fightdiv_10" id="10" style="display:none"></div></li>
+         <li class="icon3_box" style="display:none"></li> 
+        </ul>        </td>
+        <td height="40">
+        <ul class="fight_icon3">
+         <li class="icon3_left" ><div style="display:none" class="fightdiv_11" id="11"></div></li>
+         <li class="icon3_box" style="display:none"></li>
+        </ul>        </td>
+        <td height="40">
+        <ul class="fight_icon3">
+         <li class="icon3_left" ><div style="display:none" class="fightdiv_12" id="12"></div></li>
+         <li class="icon3_box" style="display:none"></li> 
+        </ul>        </td>
+        <td height="40">
+        <ul class="fight_icon3">
+         <li class="icon3_left"><div style="display:none" class="fightdiv_13" id="13"></div></li>
+         <li class="icon3_box" style="display:none"></li>
+        </ul>        </td>
+        <td width="384" height="40" align="center" valign="middle">
+        	<div id="gameover_div" name="gameover_div" style="display:none">
+        	 <table width="159" border="0" cellspacing="3" cellpadding="0" >
+            <tr>
+              <td height="26"><a   class="fight_btn_end"  id="gameover_fightmore" name="gameover_fightmore"  >戰鬥</a></td>
+              <td height="26"><a   class="fight_btn_end" id="gameover_btn" name="gameover_btn"  >地圖</a></td>
+              <td height="26"><a   class="fight_btn_end"  id="gameover_heal" name="gameover_heal" >住宿</a></td>
+            </tr>
+          </table>
+        </div>
+        	</td>
+        <td height="40">
+        <ul class="fight_icon3">
+         <li class="icon3_right"><div style="display:none" class="fightdiv_14" id="14"></div></li>
+         <li class="icon3_box" style="display:none" ></li>
+        </ul></td>
+        <td height="40">
+        <ul class="fight_icon3">
+         <li class="icon3_right"><div style="display:none" class="fightdiv_15" id="15"></div></li>
+         <li class="icon3_box" style="display:none"></li>
+        </ul></td>
+        <td height="40">
+        <ul class="fight_icon3">
+         <li class="icon3_right"><div style="display:none" class="fightdiv_16" id="16"></div></li>
+         <li class="icon3_box" style="display:none" ></li>
+        </ul></td>
+        <td height="40">
+        <ul class="fight_icon3">
+         <li class="icon3_right"><div style="display:none" class="fightdiv_17" id="17"></div></li>
+         <li class="icon3_box" style="display:none"></li>
+        </ul></td>
+        <td width="8" height="40"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
+
+

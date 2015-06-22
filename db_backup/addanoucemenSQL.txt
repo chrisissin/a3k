@@ -1,0 +1,12 @@
+INSERT INTO `a3k`.`announcement` (
+`id` ,
+`utime` ,
+`timestamp` ,
+`content`
+)
+VALUES (
+NULL , UNIX_TIMESTAMP( ) +10,
+CURRENT_TIMESTAMP , '亂鬥三國24小時M群線上攻略聊天室,請在MSN上新增 group131950@msnzone.cn '
+);
+
+SELECT * FROM `announcement` order by id desc limit 1

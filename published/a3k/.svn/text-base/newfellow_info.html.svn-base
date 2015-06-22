@@ -1,0 +1,459 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+
+
+<script src="./js/newfellow_info.js"></script>
+<style type="text/css">
+a {
+	cursor: hand;
+	cursor: pointer;
+}
+.con_boxbg_01{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_39.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_02{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_38.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	background-repeat: repeat-x;
+}
+.con_boxbg_03{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_36.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}.con_boxbg_04{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_31.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 9px;
+}
+.con_boxbg_05{
+	margin: 0px;
+	height: 299px;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_40.gif);
+	background-repeat: repeat-x;
+	width: 414px;
+	padding: 0px;
+}
+.con_boxbg_06{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_37.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 7px;
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.con_boxbg_07{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_33.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_08{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_34.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	background-repeat: repeat-x;
+}
+.con_boxbg_09{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_35.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_10{
+	background-color: #CDC3B0;
+}
+.con_btn_off,.con_btn_off:link,.con_btn_off:visited,.con_btn_off:active{
+	display: block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_off.gif);
+	height: 15px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.con_btn_off:hover{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_off_over.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.con_btn,.con_btn:link,.con_btn:visited,.con_btn:active {
+	display: block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn.gif);
+	height: 27px;
+	width: 40px;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+	line-height: 26px;
+	letter-spacing: 2px;
+	background-position: 0px 30px;
+}
+.con_btn:hover {
+	background-position: 0px 0px;
+}
+.con_btn_selected {
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn.gif);
+	height: 26px;
+	width: 40px;
+	font-size: 12px;
+	line-height: 26px;
+	text-align: center;
+	color: #000000;
+	background-repeat: no-repeat;
+	background-position: 0px -30px;
+}
+.mission_btn,.mission_btn:link,.mission_btn:visited,.mission_btn:active {
+	display: block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn.gif);
+	height: 26px;
+	width: 56px;
+	font-size: 12px;
+	color: #663300;
+	text-align: center;
+	text-decoration: none;
+	line-height: 26px;
+	background-position: 56px 30px;
+}
+.mission_btn:hover {
+	height: 26px;
+	width: 56px;
+	color: #000000;
+	background-position: 56px 60px;
+}
+.mission_btn_selected {
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn.gif);
+	width: 58px;
+	font-size: 12px;
+	line-height: 26px;
+	text-align: center;
+	color: #663300;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	height: 26px;
+	background-position: 56px 0px;
+}
+.leftward {
+	display: block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_leftward.gif);
+	height: 11px;
+	width: 11px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.rightward {
+	display: block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_rightward.gif);
+	height: 11px;
+	width: 11px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.con_btn_pickfight,.con_btn_pickfight:link,.con_btn_pickfight:visited,.con_btn_pickfight:active {
+	display:block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_pickfight.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 90px;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 20px;
+	background-position: center;
+	text-align: center;
+}
+.con_btn_pickfight:hover {
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_pickfight_hover.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 90px;
+	background-position: center;
+}
+.guide_fighticonbg {
+	height: 50px;
+	width: 50px;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/guide_type_5_41.gif);
+}
+.con_idicon {
+	height: 150px;
+	width: 120px;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/transparent.gif);
+	overflow: hidden;
+	margin-bottom: 5px;
+	margin-left: -30px;
+}
+.con_text2 {
+	font-size: 11px;
+	color: #000000;
+	text-indent: 8px;
+	line-height: 14px;
+}
+.con_text3 {
+	font-size: 11px;
+	color: #006600;
+	line-height: 14px;
+}
+.con_btn_pickfight,.con_btn_pickfight:link,.con_btn_pickfight:visited,.con_btn_pickfight:active {
+	display:block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_pickfight.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 90px;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 20px;
+	background-position: center;
+	text-align: center;
+}
+.con_btn_pickfight:hover {
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_pickfight_hover.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 90px;
+	background-position: center;
+}
+.pick{
+	height: 50px;
+	width: 50px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/transparent.gif);
+	background-position: center center;
+	list-style-type: none;
+}
+.fighticon {
+	height: 38px;
+	width: 38px;
+	z-index: 1;
+	left: 4px;
+	top: 4px;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/transparent.gif);
+	position: absolute;
+	list-style-type: none;
+}
+.fighticonbg {
+	height: 50px;
+	width: 50px;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/type_5_41.gif);
+}
+.guide_btn_pickfight,.guide_btn_pickfight:link,.guide_btn_pickfight:visited,.guide_btn_pickfight:active {
+	display:block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/guide_btn_pickfight.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 90px;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 20px;
+	background-position: center;
+	text-align: center;
+}
+.guide_btn_pickfight:hover {
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/con_btn_pickfight_hover.gif);
+}
+.con_boxbg_11 {
+	background-color: #ECEADC;
+	border: thin solid #663300;
+	padding: 0px;
+}
+.con_box {
+	height: 293px;
+	width: 404px;
+	overflow: hidden;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+.guide_fighticonbg {
+	height: 50px;
+	width: 50px;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/guide_type_5_41.gif);
+}
+.guide_btn_pickfight {
+	display:block;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/guide_btn_pickfight.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 90px;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 20px;
+	background-position: center;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<table width="430" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="52" height="17" class="con_boxbg_01"></td>
+        <td width="326" height="17" class="con_boxbg_02"></td>
+        <td width="52" height="17" class="con_boxbg_03"><table width="52" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="30" height="10"></td>
+            <td width="22" height="10"> <a   class="con_btn_off"></a></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="9" height="326" class="con_boxbg_04"></td>
+        <td width="414" height="326"><table width="414" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="27" class="con_boxbg_10"><table width="160" border="0" cellspacing="0" cellpadding="0">
+                 <tr>
+                  <td width="40" height="27"><a   class="con_btn" id="playerbtn" name="playerbtn" >屬性</a></td>
+                  <td width="40" height="27"  class="con_btn_selected"><a    id="fellowbtn" name="fellowbtn" >武將</a></td>
+                  <td width="40" height="27"><a   class="con_btn"  id="skillbtn" name="skillbtn">戰技</a></td>
+                  <td width="40" height="27"><a   class="con_btn"  id="roleinfobtn" name="roleinfobtn">職業</a></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="299" class="con_boxbg_05">
+            	<div class="con_box">
+<!-- start the meat -->
+ <table width="404" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="50"><table width="404" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="11" height="50"><a   class="leftward" id="leftbtn"></a></td>
+        <td width="382" height="60" align="center" class="con_boxbg_11">
+        	<div id="fellowtable">
+        	</div>
+        	</td>
+        <td width="11" height="50"><a   class="rightward" id="rightbtn"></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="243"><table width="404" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="90" height="243"><table width="90" border="0" cellspacing="0" cellpadding="0" >
+          <tr>
+            <td height="170"><div class="con_idicon"><table width="90"  border="0" cellspacing="0" cellpadding="0" id="fellow_still"></table></div></td>
+          </tr>
+          <tr>
+            <td height="73"><a   class="con_btn_pickfight" id="equipfellowbtn">選擇出戰</a></td>
+          </tr>
+        </table></td>
+        <td width="314" height="243"><table width="314" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="75" height="15" class="con_text2">姓名</td>
+            <td width="84" height="15" class="con_text3"><span id="p_name"></span></td>
+            <td width="75" class="con_text2">體力</td>
+            <td width="80" height="15" class="con_text3"><span id="p_hpmax"></span></td>
+          </tr>
+          <tr>
+            <td width="75" height="15" class="con_text2">職業</td>
+            <td width="84" height="15" class="con_text3"><span id="fellow_job"></span></td>
+            <td width="75" class="con_text2">精神力</td>
+            <td width="80" height="15" class="con_text3"><span id="p_mnmax"></span></td>
+          </tr>
+          <tr>
+            <td width="75" height="15" class="con_text2">官階與戰功</td>
+            <td width="84" height="15" class="con_text3"><span id="pf_rankname"></span>-<span id="pf_lv"></span></td>
+            <td width="75" class="con_text2">力量</td>
+            <td width="80" height="15" class="con_text3"><span id="p_str"></span></td>
+          </tr>
+          <tr>
+            <td width="75" height="15" class="con_text2">經驗值</td>
+            <td width="84" height="15" class="con_text3"><span id="pf_exp"></span>-<span id="p_nextexp"></span></td>
+            <td width="75" class="con_text2">智力</td>
+            <td width="80" height="15" class="con_text3"><span id="p_smart"></span></td>
+          </tr>
+          <tr>
+            <td width="75" height="15" class="con_text2">忠誠度</td>
+            <td width="84" height="15" class="con_text3"><span id="p_faith"></span></td>
+            <td width="75" class="con_text2">敏捷</td>
+            <td width="80" height="15" class="con_text3"><span id="p_agl"></span></td>
+          </tr>
+          <tr>
+            <td width="75" height="15"></td>
+            <td width="84" height="15"></td>
+            <td width="75" class="con_text2">體質</td>
+            <td width="80" height="15" class="con_text3"><span id="p_vit"></span></td>
+          </tr>
+          <tr>
+            <td width="75" height="15"></td>
+            <td width="84" height="15"></td>
+            <td width="75" class="con_text2">根骨</td>
+            <td width="80" height="15" class="con_text3"><span id="p_bone"></td>
+          </tr>
+          <tr>
+            <td width="75" height="15"></td>
+            <td width="84" height="15"></td>
+            <td width="75" class="con_text2">攻擊力</td>
+            <td width="80" height="15" class="con_text3"><span id="p_at"></span></td>
+          </tr>
+          <tr>
+            <td width="75" height="15"></td>
+            <td width="84" height="15"></td>
+            <td width="75" class="con_text2">防禦力</td>
+            <td width="80" height="15" class="con_text3"><span id="p_df"></span></td>
+          </tr>
+          
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<!-- end the meat -->
+            		</div></td>
+          </tr>
+        </table></td>
+        <td width="7" height="326" class="con_boxbg_06"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>
+    	
+    	<table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="52" height="17" class="con_boxbg_07"></td>
+        <td width="326" height="17" class="con_boxbg_08"></td>
+        <td width="52" height="17" class="con_boxbg_09"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

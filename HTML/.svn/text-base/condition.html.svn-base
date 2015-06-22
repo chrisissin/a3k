@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<script src="file:///C|/Documents and Settings/Administrator/桌面/test/SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="css/type5.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="430" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="52" height="17" class="con_boxbg_01"></td>
+        <td width="326" height="17" class="con_boxbg_02"></td>
+        <td width="52" height="17" class="con_boxbg_03"><table width="52" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="30" height="10"></td>
+            <td width="22" height="10"> <a href="#"class="con_btn_off"></a></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="9" height="326" class="con_boxbg_04"></td>
+        <td width="415" height="326" class="con_boxbg_05">
+<div id="TabbedPanels1" class="TabbedPanels">
+  <ul class="TabbedPanelsTabGroup">
+    <li class="TabbedPanelsTab" tabindex="0">屬性</li>
+    <li class="TabbedPanelsTab" tabindex="0">武將</li>
+    <li class="TabbedPanelsTab" tabindex="0">戰技</li>
+    <li class="TabbedPanelsTab" tabindex="0">職業</li>
+    <li class="TabbedPanelsTab" tabindex="0">裝備</li>
+  </ul>
+  <div class="TabbedPanelsContentGroup">
+    <div class="TabbedPanelsContent">
+      <table width="400" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="90" height="150"><div class="con_idicon"></div></td>
+          <td width="75" height="150"><table width="75" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="15" class="con_text1">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">軍團名稱</td>
+            </tr>
+            <tr><td height="15" class="con_text2">職業</td>
+            </tr>
+            <tr><td height="15" class="con_text2">官職與戰功</td>
+            </tr>
+            <tr><td height="15" class="con_text2">經驗值</td>
+            </tr>
+            <tr><td height="15" class="con_text2">目前位於</td>
+            </tr>
+            <tr><td height="15" class="con_text2">勝敗場次</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">銀兩</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2"></td>
+            </tr>
+          </table></td>
+          <td width="105" height="150"><table width="105" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="15"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXX-XXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX/XXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">荊州-XXXXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXX勝/XXX敗</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3"></td>
+            </tr>
+          </table></td>
+          <td width="10" height="150"></td>
+          <td width="55" height="150"><table width="55" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="15" class="con_text2"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">體力</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">精神力</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">力量</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">智力</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">敏捷</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">體質</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">根骨</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">攻擊力</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">防禦力</td>
+            </tr>
+          </table></td>
+          <td width="65" height="150"><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="15" class="con_text3"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><table width="65" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="20" class="con_text4">目前裝備</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">頭部裝備</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">身體裝備</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">手部裝備</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">腳部裝備</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">武器裝備</td>
+            </tr>
+            
+          </table></td>
+          <td><table width="75" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text3">XXXXXX</td>
+            </tr>
+            
+          </table></td>
+          <td width="15"></td>
+          <td width="55"><table width="55" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="20" class="con_text4">目前裝備</td>
+            </tr>
+            <tr>
+              <td width="75" height="75">
+                <ul class="pick">
+                 <li class="fighticon"></li>
+                 <li class="fighticonbg"></li>
+                </ul>              </td>
+            </tr>
+            
+          </table></td>
+          <td><table width="75" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="20" class="con_text4"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">XXXXXX</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2">等級</td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2"></td>
+            </tr>
+            <tr>
+              <td height="15" class="con_text2"></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+
+    </div>
+    <div class="TabbedPanelsContent">內容 2</div>
+    <div class="TabbedPanelsContent">內容 3</div>
+    <div class="TabbedPanelsContent">內容 4</div>
+    <div class="TabbedPanelsContent">內容 5</div>
+  </div>
+</div>
+<script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+//-->
+</script>        </td>
+        <td width="7" height="326" class="con_boxbg_06"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="52" height="17" class="con_boxbg_07"></td>
+        <td width="326" height="17" class="con_boxbg_08"></td>
+        <td width="52" height="17" class="con_boxbg_09"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+</body>
+</html>

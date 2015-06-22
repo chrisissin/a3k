@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/*最外框
+ */
+.TabbedPanels {
+	float: left;
+	clear: none;
+	width: 414px; 
+	height: 326px;
+	overflow: auto;
+}
+
+/* 切頁標題
+ */
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* 未選擇狀態*/
+.TabbedPanelsTab {
+	float: left;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	font-size: 12px;
+	font-weight: normal;
+	color: #663300;
+	background-image: url(../images/con_btn.gif);
+	height: 27px;
+	width: 40px;
+	line-height: 27px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	list-style-type: none;
+	letter-spacing: 1px;
+}
+
+/* 滑鼠移過*/
+.TabbedPanelsTabHover {
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	background-image: url(../images/con_btn_over.gif);
+	height: 27px;
+	width: 40px;
+	line-height: 29px;
+	color: #000000;
+}
+
+/* 目前選單*/
+.TabbedPanelsTabSelected {
+	background-image: url(../images/con_btn_selected.gif);
+	height: 27px;
+	width: 45px;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	text-align: center;
+	line-height: 27px;
+	background-repeat: no-repeat;
+	background-position: center;
+	list-style-type: none;
+}
+/* 內容框線*/
+.TabbedPanelsContentGroup {
+	clear: both;
+}
+
+/* 內文框*/
+.TabbedPanelsContent {
+	padding: 4px;
+	color: #006600;
+	background-image: url(../images/type_5_40.gif);
+	background-repeat: repeat-x;
+	height: 291px;
+	width: 98%;
+	overflow: auto;
+}
+/*狀態框背景*/
+.con_boxbg_01{
+	background-image: url(../images/type_5_39.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}.con_boxbg_02{
+	background-image: url(../images/type_5_38.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	background-repeat: repeat-x;
+}
+.con_boxbg_03{
+	background-image: url(../images/type_5_36.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}.con_boxbg_04{
+	background-image: url(../images/type_5_31.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 9px;
+}
+.con_boxbg_05{
+	margin: 0px;
+	padding: 0px;
+	background-color: #CDC3B0;
+	height: 326px;
+}
+.con_boxbg_06{
+	background-image: url(../images/type_5_37.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 7px;
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.con_boxbg_07{
+	background-image: url(../images/type_5_33.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_08{
+	background-image: url(../images/type_5_34.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	background-repeat: repeat-x;
+}
+.con_boxbg_09{
+	background-image: url(../images/type_5_35.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_btn_off:link,.con_btn_off:visited,.con_btn_off:active{
+	display: block;
+	background-image: url(../images/con_btn_off.gif);
+	height: 17px;
+	width: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.con_btn_off:hover{
+	display: block;
+	background-image: url(../images/con_btn_off_over.gif);
+	height: 17px;
+	width: 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}

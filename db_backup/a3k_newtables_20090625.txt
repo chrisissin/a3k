@@ -1,0 +1,45 @@
+CREATE TABLE `chatindex` (
+  `cindextime` int(10) NOT NULL default '0',
+  `timestamp` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  PRIMARY KEY  (`cindextime`)
+) ENGINE=MEMORY DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `chat` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `content` varchar(21000) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MEMORY  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+
+CREATE TABLE `chatbk` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `content` varchar(21000) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MEMORY  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+CREATE TABLE `a3k_brohood` (
+`pkid` INT NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT 'pk',
+`p_id` INT( 10 ) NULL DEFAULT '0' COMMENT 'me',
+`b_p_id` INT( 10 ) NULL DEFAULT '0' COMMENT 'my friend',
+`timestamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'timestamp'
+) ENGINE = innodb COMMENT = 'a3k brother hood';
+
+DROP TABLE IF EXISTS `a3k_brohood`;
+CREATE TABLE IF NOT EXISTS `a3k_brohood` (
+  `pkid` int(11) NOT NULL auto_increment COMMENT 'pk',
+  `p_id` int(10) NOT NULL default '0' COMMENT 'me',
+  `b_p_id` int(10) NOT NULL default '0' COMMENT 'my friend',
+  `timestamp` timestamp NOT NULL default CURRENT_TIMESTAMP COMMENT 'timestamp',
+  PRIMARY KEY  (`pkid`,`p_id`,`b_p_id`),
+  UNIQUE KEY `p_id` (`p_id`,`b_p_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='a3k brother hood' AUTO_INCREMENT=1 ;
+
+
+CREATE TABLE `a3k_referral_award` (
+  `id` int(11) NOT NULL auto_increment,
+  `next_ref` int(3) NOT NULL,
+  `award_itemid` varchar(10) NOT NULL,
+  `award_item_no` int(2) NOT NULL default '1',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

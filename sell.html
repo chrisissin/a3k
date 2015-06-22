@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script src="./js/sell.js"></script>
+<style type="text/css">
+a {
+	cursor: pointer;
+	cursor: hand;
+}
+.con_boxbg_01{
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/type_5_39.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_02{
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/type_5_38.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	background-repeat: repeat-x;
+}
+.con_boxbg_03{
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/type_5_36.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}.con_boxbg_04{
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/type_5_31.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 9px;
+}
+.con_boxbg_05{
+	margin: 0px;
+	height: 299px;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_40.gif);
+	background-repeat: repeat-x;
+	width: 414px;
+	padding: 0px;
+}
+.con_boxbg_06{
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/type_5_37.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 7px;
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.con_boxbg_07{
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/type_5_33.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_08{
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/type_5_34.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	background-repeat: repeat-x;
+}
+.con_boxbg_09{
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/type_5_35.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_10{
+	background-color: #CDC3B0;
+}
+.con_btn_off,.con_btn_off:link,.con_btn_off:visited,.con_btn_off:active{
+	display: block;
+	background-image: url( http://a3k.1001ya.com.tw/a3k/images/con_btn_off.gif);
+	height: 15px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.con_btn_off:hover{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/con_btn_off_over.gif);
+}
+.mission_btn,.mission_btn:link,.mission_btn:visited,.mission_btn:active {
+	display: block;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/con_btn.gif);
+	height: 26px;
+	width: 56px;
+	font-size: 12px;
+	color: #663300;
+	text-align: center;
+	text-decoration: none;
+	line-height: 26px;
+	background-position: 56px 30px;
+}
+.mission_btn:hover {
+	color: #000000;
+	background-position: 56px 60px;
+}
+.mission_btn_selected {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/con_btn.gif);
+	width: 58px;
+	font-size: 12px;
+	line-height: 26px;
+	text-align: center;
+	color: #663300;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	height: 26px;
+	background-position: 56px 0px;
+}
+.mission_div_box {
+	height: 279px;
+	width: 413px;
+	overflow: hidden;
+}
+.add_bg14{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/add_07.gif);
+	background-repeat: repeat-x;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #dcdcdc;
+	border-left-color: #FFFFFF;
+	background-position: 0px 0px;
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 20px;
+	text-indent: 6px;
+	font-weight: 600;
+}
+.sell_bg {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #998675;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	border-top-width: 1px;
+	border-top-style: none;
+}
+.sell_text {
+	font-family: "新細明體", Garamond;
+	font-size: 12px;
+	color: #0071BC;
+}
+.sell_text2 {
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	color: #333333;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.sell_text3 {
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	color: #CC0000;
+	padding-right: 6px;
+	padding-left: 6px;
+	font-weight: 600;
+}
+.grouptext2{
+	font-size: 12px;
+	color: rgb(0,113,188);
+	font-family: "新細明體", Garamond;
+}
+.bag_btn ,.bag_btn:link ,.bag_btn:visited ,.bag_btn:active {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/bag_btn.gif);
+	background-repeat: repeat-x;
+	height: 20px;
+	width: 36px;
+	display: block;
+	cursor: hand;
+	cursor:point;
+	font-size: 12px;
+	color: rgb(147,124,97);
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #FFFFFF;
+}
+.bag_btn:hover {
+	border: 1px solid rgb(147,124,97);
+}
+.bag_btn1 {	background-image: url(http://a3k.1001ya.com.tw/a3k/images/bag_btn.gif);
+	background-repeat: repeat-x;
+	height: 20px;
+	width: 36px;
+	display: block;
+	cursor: hand;
+	cursor:point;
+	font-size: 12px;
+	color: rgb(147,124,97);
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<table width="430" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="17"><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="52" height="17" class="con_boxbg_01"></td>
+        <td width="326" height="17" class="con_boxbg_02"></td>
+        <td width="52" height="17" class="con_boxbg_03"><table width="52" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="30" height="10"></td>
+            <td width="22" height="10"><a  class="con_btn_off" id="closebtn" name="closebtn"></a></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="9" height="326" class="con_boxbg_04"></td>
+        <td width="414" height="326"><table width="414" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="27" class="con_boxbg_10"><table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="58" height="26" id="equip_btn" name="equip_btn" class="mission_btn_selected"><a>裝備</a></td>
+                <td width="56" height="26" id="item_btn" name="item_btn" class="mission_btn"><a>道具</a></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="299" class="con_boxbg_05"><div class="mission_div_box">
+              <table border="0" cellpadding="0" cellspacing="0" class="add_bg14">
+                <tr>
+                  <td width="180" height="20">商品名稱</td>
+                  <td width="90">持有人</td>
+                  <td width="80">價格</td>
+                  <td width="60">數量</td>
+                </tr>
+              </table>
+              <table border="0" cellpadding="0" cellspacing="0" id="auctionlist">
+
+                <!--
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text">白色短靴</span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2">AAAAAAAA</span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3">500元</span><br /></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2">1</span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text">白色短靴</span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2">BBBBBBBB</span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3">1元</span><br /></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2">2</span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                <tr>
+                  <td height="20" align="left" class="sell_bg"><input name="" type="radio" value="" />
+                    <span class="sell_text"></span></td>
+                  <td align="left" class="sell_bg"><span class="sell_text2"></span></td>
+                  <td align="right" class="sell_bg"><span class="sell_text3"></span></td>
+                  <td align="center" class="sell_bg"><span class="sell_text2"></span></td>
+                </tr>
+                -->
+                                
+              </table>
+              </div>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="400" align="center" valign="middle"><a><span class="grouptext2">
+                    <!--上一頁 │ 下一頁-->
+                  </span></a></td>
+                  <td width="36" height="20"><a class="bag_btn1" id="sellbtn" name="sellbtn">購買</a></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table></td>
+        <td width="7" height="326" class="con_boxbg_06"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="52" height="17" class="con_boxbg_07"></td>
+        <td width="326" height="17" class="con_boxbg_08"></td>
+        <td width="52" height="17" class="con_boxbg_09"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

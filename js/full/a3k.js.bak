@@ -1,0 +1,73 @@
+
+var loginaddress="http://www.1001ya.com.tw/";var loginaddress="http://www.1001ya.com.tw/a3kweb/";var Cashaddress="https://www.mycard520.com.tw/mycardstore/store.aspx?gameid=1001ya";var hinet="http://a3k.1001ya.com.tw/a3k/";var net="http://a3k.1001ya.com.tw";var rootdo=".1001ya.com.tw";var g_infight=0;var dd;function loadingOn()
+{$('#loading').show();}
+function loadingOff()
+{$('#loading3').hide();$('#loading2').hide();$('#loading').hide();}
+function notifyactionresult(msg)
+{if($('#mpopup').length===0){$('<div></div>').attr('id','mpopup').css('position','absolute').css('z-index','99999').hide().popup({inkSensor:true,outSensor:true}).appendTo('body');}
+$('#mpopup').load('./message.html',{},function(){$(this).showPopup();var tool=$('#questionlist');var toolPosition=tool.offset();moveTo($(this),{x:toolPosition.left+1,y:toolPosition.top+1});$('#msg_box').html(msg);});$("#mpopup").draggable();}
+function seta3klogin()
+{setCookie("a3kplayer",null,null,"/",rootdo);}
+function getplayer()
+{return pid;}
+var pid=null;function setplayer(val)
+{pid=val;}
+function toDownTown(me)
+{$.post("./dispatchers/dispatcher.php",{me:""+me+"",what:"toDownTown"},function(data){loadingOn();exeJSstring(data);loadingOff();});LoadPlayerInfo(getplayer());}
+function exeJSstring(data)
+{if($('#executionjq').length===0)
+{$('<div></div>').attr('id','executionjq').css('display','none').appendTo('body');}
+$('#executionjq').html('');$('#executionjq').html(data);}
+function loadmaindiv(page)
+{$("#maindiv").load("/a3k/"+page);}
+function heal(me)
+{dd=me;notifyactionresult("住宿中");setTimeout("sleep(dd);",2000);}
+function sleep(me)
+{$.post("./dispatchers/dispatcher.php",{me:""+me+"",what:"heal"},function(data){loadingOn();notifyactionresult(data);LoadPlayerInfo(getplayer());loadingOff();});}
+function moveTo(target,position){if(!target||!position){return;}
+target.css({'z-index':99,left:position.x,top:position.y});}
+function LoadPlayerInfo(me){if(me){$.post("./dispatchers/dispatcher.php",{me:""+me+"",what:"getprimeInfo"},function(data){showprimeInfo(data);Pexpcount();},'json');}}
+function showprimeInfo(data){$('#player_name').text(data.p_name);$('#p_rankname').text(data.p_rankname);$('#p_lv').text(data.p_lv);$('#p_money').text(data.p_money);$('#p_job').text(data.role_name);$('#p_r_money').text(data.p_r_money);$('#p_exp').text(data.p_exp);$("#idimg").css("background-image","url(/a3k/images_char/icon/left/"+data.p_img+"_1.gif)")
+$("#idimg").show();}
+function loadqestionlist(me){if(me)
+$.post("./dispatchers/dispatcher.php",{me:""+me+"",what:"loadquestionlist"},function(data){display_question_list(data);},'json');}
+function display_question_list(data){$('#questionlist').html("");if(data!=null){var i=0;var Qlist="";if(data){for(var i=0;i<data.length;i++){var questionname=data[i].q_title;var questid=data[i].q_id;var queststatus=data[i].q_status;if(queststatus==2)
+{var table="\
+             <a onclick=\"getquest('"+questid+"')\">"+questionname+"</a> OK!<br/>\
+         ";}
+else{var table="\
+             <a onclick=\"getquest('"+questid+"')\">"+questionname+"</a><br/>\
+         ";}
+Qlist+=table;}
+$('#questionlist').html(Qlist);}}}
+function getquest(questid)
+{loadingOn();if($('#popup').length==0){$('<div></div>').attr('id','popup').css('position','absolute').hide().popup({linkSensor:true,outSensor:true}).appendTo('body');}
+$('#popup').load('./mission.html',{},function(){$(this).showPopup();var tool=$('#maindiv');var toolPosition=tool.offset();moveTo($(this),{x:toolPosition.left,y:toolPosition.top+72});loadingOff();showQuestDescription(questid);});$("#popup").draggable();}
+function enteringgame_res(data)
+{if(data.code=="-666")
+{alert(data.msg);window.location=loginaddress;return;}
+if(data.code=="-777")
+{setplayer(data.msg);invocapt();return;}
+if(data.code=="-1")
+{alert(data.msg);window.location=loginaddress;return;}
+if(data.code=="-2")
+{initwin();notifyactionresult(data.msg);return;}
+if(data.msg!="")
+{initwin();notifyactionresult(data.msg);return;}
+setplayer(data.code);$('#apopup').hidePopup();$("#apopup").html("");$("#apopup").hide();loadint();}
+function msgonfightboard(msg)
+{var shwstr=msg+"<br/>"+$('#messagetext').html();$('#messagetext').html(shwstr);}
+function msgonchatboard(msg)
+{var talkbox=$('#talkbox');var shwstr=talkbox.html()+msg+"<br/>";talkbox.html(shwstr);var objDiv=document.getElementById("talkbox");objDiv.scrollTop=objDiv.scrollHeight;}
+function loadint()
+{loadingOff();$("#chatdiv").load("/a3k/chat.html");$("#maindiv").load("/a3k/map.html");loadqestionlist(getplayer());LoadPlayerInfo(getplayer());listshortcut(getplayer());}
+function checkplayer()
+{if(getplayer()==null)
+{$.post("./dispatchers/dispatcher.php",{what:"checkplayer"},function(data){if(data){enteringgame_res(data);}},'json');return false;}else
+{return true;}}
+function Pexpcount(me){$.post("./dispatchers/dispatcher.php",{me:getplayer(),what:"expcount"},function(data){;});}
+var fkind;var danpc;function intoFight()
+{loadingOn();loadmaindiv("fight.html");}
+function invocapt()
+{loadingOn();if($('#capopup').length==0){$('<div></div>').attr('id','capopup').css('position','absolute').hide().popup({inkSensor:false,outSensor:false}).appendTo('body');}
+$('#capopup').load('./capt.html',{},function(){$(this).showPopup();var tool=$('#maindiv');var toolPosition=tool.offset();moveTo($(this),{x:toolPosition.left+92,y:toolPosition.top+72});});}

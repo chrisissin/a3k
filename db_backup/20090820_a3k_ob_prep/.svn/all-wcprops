@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/a3k/!svn/ver/331/db_backup/20090820_a3k_ob_prep
+END
+a3k_ob_prep_init_w_robot.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/a3k/!svn/ver/331/db_backup/20090820_a3k_ob_prep/a3k_ob_prep_init_w_robot.sql
+END
+a3k_cb_final_b4_20090820.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/a3k/!svn/ver/331/db_backup/20090820_a3k_ob_prep/a3k_cb_final_b4_20090820.sql
+END
+a3k_ob_prep_init.sql
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/a3k/!svn/ver/331/db_backup/20090820_a3k_ob_prep/a3k_ob_prep_init.sql
+END
+a3k_ob_structure.sql
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/a3k/!svn/ver/331/db_backup/20090820_a3k_ob_prep/a3k_ob_structure.sql
+END
+a3k_ob_design_myisam_data.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/a3k/!svn/ver/331/db_backup/20090820_a3k_ob_prep/a3k_ob_design_myisam_data.sql
+END

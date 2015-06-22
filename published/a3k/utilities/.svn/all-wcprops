@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/a3k/!svn/ver/123/published/a3k/utilities
+END
+db_mysql.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a3k/!svn/ver/123/published/a3k/utilities/db_mysql.php
+END
+init.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a3k/!svn/ver/123/published/a3k/utilities/init.inc.php
+END
+function.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/a3k/!svn/ver/123/published/a3k/utilities/function.inc.php
+END
+global.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/a3k/!svn/ver/123/published/a3k/utilities/global.php
+END
+function.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/a3k/!svn/ver/123/published/a3k/utilities/function.php
+END

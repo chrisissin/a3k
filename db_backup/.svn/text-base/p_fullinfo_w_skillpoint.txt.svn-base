@@ -1,0 +1,9 @@
+ SELECT p.p_img, p.p_name, p.p_lv, p.p_rankname, p.p_exp, p.p_nextexp, p.p_map, p.p_win, p.p_lost, p.p_money, p.p_hp, p.p_mn, p.p_hpmax, p.p_mnmax, p.p_str, p.p_smart, p.p_agl, p.p_vit, p.p_bone, p.p_at, p.p_df, p.pf_id, p.role_id, p.p_hpmax, p.p_mnmax, m.map_state_name, m.map_city_name, r.role_id, r.role_name, g.g_name, s.role_skillpointmax, s.skill_point
+FROM `a3k`.`a3k_player` AS p
+LEFT JOIN a3k_group g ON g.g_id = p.p_guild
+LEFT JOIN a3k_skill s ON s.user_id = p.p_id
+AND s.role_id = p.role_id, `a3k`.`a3k_map` AS m, `a3k`.`a3k_role` AS r
+WHERE p.p_id = '".$me."'
+AND p.p_map = m.map_id
+AND p.role_id = r.role_id
+LIMIT 0 , 30 

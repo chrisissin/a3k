@@ -1,0 +1,68 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.2
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Mar 02, 2009 at 10:23 AM
+-- Server version: 5.0.67
+-- PHP Version: 5.2.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+-- 
+-- Database: `a3k`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `a3k_fellow`
+-- 
+
+CREATE TABLE `a3k_fellow` (
+  `p_owner` varchar(45) NOT NULL default '0' COMMENT '五將主人',
+  `p_id` int(10) unsigned NOT NULL auto_increment,
+  `p_at` int(10) unsigned NOT NULL default '0' COMMENT '攻擊力',
+  `p_df` int(10) unsigned NOT NULL default '0' COMMENT '防禦力',
+  `p_agl` int(10) unsigned NOT NULL default '0' COMMENT '速度',
+  `p_rankname` varchar(40) NOT NULL COMMENT '官階',
+  `p_str` int(10) unsigned NOT NULL COMMENT '力量',
+  `p_smart` int(10) unsigned NOT NULL COMMENT '智力',
+  `p_vit` int(10) unsigned NOT NULL COMMENT '體質',
+  `p_bone` int(10) unsigned NOT NULL COMMENT '根骨',
+  `p_name` varchar(48) NOT NULL default '--' COMMENT '五將名',
+  `p_hp` int(10) unsigned NOT NULL default '0' COMMENT '體力',
+  `p_lv` int(10) unsigned NOT NULL default '0' COMMENT '等級',
+  `p_img` varchar(25) default NULL COMMENT '圖檔名',
+  `p_hpmax` int(10) unsigned NOT NULL default '0' COMMENT '體力最大',
+  `p_mn` int(10) unsigned NOT NULL default '0' COMMENT '精神力',
+  `p_mnmax` int(10) unsigned NOT NULL default '0' COMMENT '精神力最大',
+  `p_exp` int(10) unsigned NOT NULL default '0' COMMENT '目前經驗值',
+  `p_nextexp` int(10) unsigned NOT NULL COMMENT '升級所需經驗職',
+  `role_id` varchar(45) NOT NULL COMMENT '職業',
+  `faith` int(10) unsigned NOT NULL COMMENT '忠誠',
+  PRIMARY KEY  USING BTREE (`p_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='玩家的武將' AUTO_INCREMENT=287 ;
+
+-- 
+-- Dumping data for table `a3k_fellow`
+-- 
+
+INSERT INTO `a3k_fellow` VALUES ('4', 1, 20, 20, 10, '墨門弟子', 0, 0, 0, 0, '獵戶小鐵', 217, 2, 'h0010', 250, 0, 0, 12, 250, 'a01', 0);
+INSERT INTO `a3k_fellow` VALUES ('2', 2, 20, 20, 10, '墨門弟子', 0, 0, 0, 0, '獵戶小鐵', 0, 2, 'h0020', 250, 0, 0, 0, 250, 'a01', 0);
+INSERT INTO `a3k_fellow` VALUES ('3', 3, 20, 20, 10, '墨門弟子', 0, 0, 0, 0, '獵戶小鐵', 239, 2, 'h0030', 250, 0, 0, 0, 250, 'a01', 0);
+INSERT INTO `a3k_fellow` VALUES ('4', 5, 13, 12, 11, '墨門弟子', 3, 1, 1, 2, '獵戶小鐵', 14, 7, 'h0040', 67, 30, 30, 30, 250, 'a01', 0);
+INSERT INTO `a3k_fellow` VALUES ('4', 4, 20, 20, 10, '墨門弟子', 0, 0, 0, 0, '胡車兒', 250, 4, 'h0050', 250, 0, 0, 62, 250, 'a01', 0);
+INSERT INTO `a3k_fellow` VALUES ('6', 6, 20, 20, 10, '墨門弟子', 0, 0, 0, 0, '胡車兒', 237, 2, 'h0060', 250, 0, 0, 0, 250, 'a01', 0);
+INSERT INTO `a3k_fellow` VALUES ('7', 7, 20, 20, 10, '墨門弟子', 0, 0, 0, 0, '胡車兒', 230, 2, 'h0070', 250, 0, 0, 0, 250, 'a01', 0);
+INSERT INTO `a3k_fellow` VALUES ('8', 8, 20, 20, 10, '墨門弟子', 0, 0, 0, 0, '胡車兒', 230, 2, 'h0080', 250, 0, 0, 76, 250, 'a01', 0);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

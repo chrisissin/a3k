@@ -1,0 +1,1 @@
+ALTER TABLE `a3k_fellowshop` ADD `fl_cash` INT( 10 ) NOT NULL DEFAULT '0';

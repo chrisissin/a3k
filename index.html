@@ -1,0 +1,1050 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8 " />
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+        <title>亂鬥三國 Age of 3 Kingdoms Worx</title>
+<style type="text/css">
+#lightbox {
+	left:0;
+	line-height:0;
+	position:absolute;
+	text-align:center;
+	width:100%;
+	z-index:100;
+}
+#overlay {
+	background-color:#000000;
+	height:5000px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:90;
+	filter: Alpha(Opacity=30);
+}
+a {
+	cursor : pointer; 
+	cursor : hand;
+	color: #027EBF;
+	text-decoration:none;
+}
+body {
+	background-color: #C5C4AF;
+}
+.btn_downward {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/btn_downward.gif);
+	background-repeat: no-repeat;
+	height: 7px;
+	width: 11px;
+	background-position: center center;
+}
+.btn_upward {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/btn_upward.gif);
+	background-repeat: no-repeat;
+	height: 7px;
+	width: 11px;
+	background-position: center center;
+}
+.logo{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.bg1{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_01.gif);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 17px;
+}
+.bg2{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_02.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 46px;
+}
+.bg3{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_03.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 863px;
+}
+.bg6{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_06.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 46px;
+}
+.bg7{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_07.gif);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 17px;
+}
+.bg8{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_08.gif);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 17px;
+}
+.bg9{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_09.gif);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 17px;
+}.bg10{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_10.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 46px;
+}
+.bg11{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_11.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 46px;
+}.bg12{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_12.gif);
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 863px;
+}
+.bg16{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_16.gif);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 642px;
+}
+.bg17{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_17.gif);
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 642px;
+}
+.bg18{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_18.gif);
+	background-repeat: no-repeat;
+	height: 99px;
+	width: 135px;
+}
+.bg19{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_19.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+	width: 3px;
+}
+.bg20{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_20.gif);
+	background-repeat: repeat-x;
+	height: 3px;
+}
+.bg21{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_21.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+	width: 3px;
+}
+.bg22{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_22.gif);
+	background-repeat: repeat-y;
+	width: 3px;
+}
+.bg23{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_23.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+	width: 3px;
+}
+.bg24{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_24.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+	width: 3px;
+}
+.bg44{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_44.gif);
+	background-repeat: no-repeat;
+	height: 590px;
+	width: 17px;
+}
+.bg45{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_45.gif);
+	background-repeat: no-repeat;
+	height: 590px;
+	width: 17px;
+}
+.bgmain{
+	background-color: #E8E5D9;
+}
+.bgchat{
+	background-color: #F5F4EE;
+}
+.l_bg {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_15.gif);
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	width: 175px;
+}
+.talkbox {
+	font-size: 11px;
+	color: #663300;
+	margin: 3px;
+	height: 99%;
+	width: 635px;
+	overflow: auto;
+}
+.btn_top,.btn_top:link,.btn_top:visited,.btn_top:active {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/btn_top.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	display: block;
+	height: 39px;
+	width: 90px;
+	text-align: center;
+	line-height: 40px;
+	font-family: "新細明體", Garamond;
+}
+.btn_top:hover{
+	color: #663300;
+	background-position: center -40px;
+	vertical-align: middle;
+}
+.mission {
+	font-size: 11px;
+	color: #336600;
+	text-decoration: none;
+	height: 99%;
+	width: 99%;
+	overflow: auto;
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+}
+.news{
+	font-size: 12px;
+	line-height: 25px;
+	color: #FF0000;
+	text-decoration: none;
+	height: 99%;
+	width: 99%;
+	padding-left: 5px;
+	font-family: "新細明體", Garamond;
+}
+.news_title {
+	font-size: 12px;
+	color: #000000;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_25.gif);
+	height: 26px;
+	width: 67px;
+	line-height: 28px;
+	letter-spacing: 2pt;
+	font-weight: normal;
+	background-repeat: no-repeat;
+	background-position: right;
+	text-indent: 6px;
+	text-align: center;
+}
+.btn_ru,.btn_ru:link,.btn_ru:visited,.btn_ru:active {
+	display:block;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/btn_ru.gif);
+	background-repeat: no-repeat;
+	background-position: -3px top;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 76px;
+	width: 57px;
+	text-align: center;
+	font-family: "新細明體", Garamond;
+	line-height: 58px;
+}
+.btn_ru:hover {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/btn_ru.gif);
+	height: 77px;
+	width: 59px;
+	background-position: -61px top;
+}
+.main {
+	height: 361px;
+	width: 761px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+}
+.mission_title {
+	font-size: 14px;
+	color: #663300;
+	text-decoration: none;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_26.gif);
+	height: 21px;
+	width: 154px;
+	text-align: center;
+	line-height: 18px;
+	letter-spacing: 10px;
+}
+.id {
+	font-size: 11px;
+	color: #663300;
+	width: 100%;
+}
+.facial {
+	background-color: #E1DBCB;
+	position: absolute;
+	height: 74px;
+	width: 128px;
+	right: 0px;
+	bottom: 20px;
+	border: 1px solid #663300;
+}
+.loading2 {
+	height: 600px;
+	width: 178px;
+	position:absolute;
+	z-index:30;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/transparent.gif);
+}
+.loading3 {
+	height: 49px;
+	width: 642px;
+	position:absolute;
+	z-index:30;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/transparent.gif);
+}
+.guide_div {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/transparent.gif);
+}
+.idimg {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/transparent.gif);
+	height: 48px;
+	width: 48px;
+}
+.index_btn_1 {
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/index_btn.gif);
+	background-position: 0px 0px;
+	height: 22px;
+	width: 22px;
+	float: right;
+	margin-left: 1px;
+}
+.index_btn_1:hover {
+	background-position: -22px 0px;
+}
+.index_btn_2 {
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/index_btn.gif);
+	background-position: 0px -22px;
+	height: 22px;
+	width: 22px;
+	float: right;
+	margin-left: 1px;
+}
+.index_btn_2:hover {
+	background-position: -22px -22px;
+}
+.index_btn_3 {
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/index_btn.gif);
+	background-position: 0px -44px;
+	height: 22px;
+	width: 44px;
+	float: right;
+	margin-left: 1px;
+}
+.index_btn_3:hover {
+	background-position: -44px -44px;
+}
+.shortcut,.shortcut:link ,.shortcut:visited ,.shortcut:active {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/icon.gif);
+	height: 32px;
+	width: 32px;
+	border: 1px solid #CCCCCC;
+	cursor: hand;
+	cursor:pointer;
+	display:block;
+}
+.shortcut:hover{
+	border: 1px outset #CCCCCC;
+
+}
+.shortcut_1{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: left bottom;
+}
+.shortcut_2{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: 64px bottom;
+}
+.shortcut_3{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: right bottom;
+}
+.shortcut_4{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: left center;
+}
+.shortcut_5{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: 64px center;
+}
+.shortcut_6{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: right center;
+}
+.shortcut_7{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: left top;
+}
+.shortcut_8{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: 64px top;
+}
+.shortcut_9{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/quick_number.gif);
+	height: 32px;
+	width: 32px;
+	background-position: right top;
+}
+.playerbg{
+	height: 48px;
+	width: 154px;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/playerbg.gif);
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "新細明體", Garamond;
+}
+.playerbg2{
+	height: 18px;
+	width: 100px;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/playerbg2.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: rgb(96,56,19);
+	font-size: 12px;
+	line-height: 16px;
+}
+.playertext{
+	height: 18px;
+	width: 48px;
+	color: rgb(147,124,97);
+	font-size: 11px;
+	line-height: 16px;
+}
+.btn_about {
+	height: 25px;
+	width: 125px;
+	margin-top: 2px;
+	margin-left: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.btn_about_1{
+	margin-left: 0px;
+	margin-top: 0px;
+	position: absolute;
+	border: none;
+}
+.btn_about_1:hover {
+	margin-left: -125px;
+}
+.btn_about_2{
+	margin-left: 0px;
+	margin-top: -25px;
+	position: absolute;
+	border: none;
+}
+.btn_about_2:hover {
+	margin-left: -125px;
+}
+.btn_about_3{
+	margin-left: 0px;
+	margin-top: -50px;
+	position: absolute;
+	border: none;
+}
+.btn_about_3:hover {
+	margin-left: -125px;
+}
+.btn_about_4{
+	margin-left: 0px;
+	margin-top: -75px;
+	position: absolute;
+	border: none;
+}
+.btn_about_4:hover {
+	margin-left: -125px;
+}
+</style>
+<?php
+require_once("config/a3k_act_config.php");
+global $a3k_config;
+echo "<script>";
+echo "var loginaddress = '".$a3k_config[loginaddress]."' ;";
+echo "var Cashaddress = '".$a3k_config[Cashaddress]."' ;";
+echo "var hinet = '".$a3k_config[hinet]."' ;";
+echo "var net = '".$a3k_config[net]."' ;";
+echo "var charpat = '".$a3k_config[charpat]."' ;";
+echo "var hostaddress = '".$a3k_config[hostaddress]."' ;";
+echo "var rootdo = '".$a3k_config[rootdo]."' ;";
+echo "</script>";
+?>
+
+    <script src="./js/jquery-1.4.2.min.js"></script>
+    <script src="./js/jquery-ui-1.7.custom.min.js"></script>
+    <script src="./js/x.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="./js/a3k.js"></script>
+    <script src="./js/index.js"></script>	
+
+<!--
+</head>
+<body>-->
+	<div id="loading">
+<div  id="overlay" style="height: 100%; opacity: 0.3; display: none;"></div>
+<div id="lightbox" style="top: 366.333px; display: none;">
+<div  id="loadingpixdiv"><img  id="loadingpix" src="images/loading.gif"/></div>
+</div>
+</div>
+<!--</div>-->
+    <a name="#"></a>
+    <table width="989" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table width="17" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="29" class="bg1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="590" class="bg44">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="29" class="bg8">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table width="950" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="955" height="17">
+                            <table width="955" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="46" height="17" class="bg2">
+                                    </td>
+                                    <td width="863" height="17" class="bg3">
+                                    </td>
+                                    <td width="46" height="17" class="bg6">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="955" height="600">
+                            <table width="955" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="178" height="600" valign="top" class="l_bg">
+                                        <div class="loading2" id="loading2">
+                                        </div>
+                                        <table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td height="4" colspan="3">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" height="3" class="bg19">
+                                                </td>
+                                                <td height="3"  class="bg20">
+                                                </td>
+                                                <td width="3" height="3"  class="bg21">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" class="bg22">
+                                                </td>
+                                                <td height="89" align="center" valign="middle" class="logo">
+                                                  
+                                                </td>
+                                                <td width="3" class="bg22">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" height="3" class="bg23">
+                                                </td>
+                                                <td height="3" class="bg20">
+                                                </td>
+                                                <td width="3" height="3" class="bg24">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td height="4" colspan="3">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" height="3" class="bg19">
+                                                </td>
+                                                <td height="3" class="bg20">
+                                                </td>
+                                                <td width="3" height="3" class="bg21">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3"  class="bg22">
+                                                </td>
+                                               <td height="171" valign="top">
+                                                    <table width="154" height="48" border="0" cellpadding="0" cellspacing="0" class="playerbg">
+                          <tr>
+                                                            <td width="48" height="48"><div class="idimg" id="idimg"></div></td>
+                                          <td valign="top"><table width="106" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+    <a title="重新整理" class="index_btn_1" id="refresh"></a>
+    <a title="登出" class="index_btn_2" id="logoff"></a>
+  </tr>
+</table>
+                                          <table width="106" height="26" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <td height="26" align="center" valign="middle"><span id="player_name"></span></td>
+                                              </tr>
+                                            </table></td>
+                                                      </tr>
+                                                    </table>
+                                                <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td>
+                                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="id">
+                                                                    <tr>
+                                                                        <td align="right" class="playertext">義勇軍</td>
+                                                                      <td align="center" valign="middle" class="playerbg2"><span id="p_groupname"></span></td>
+                                                                  </tr>
+                                                                    <tr>
+                                                                      <td align="right" class="playertext">職業</td>
+                                                                      <td align="center" valign="middle" class="playerbg2"><span id="p_job"></span></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td align="right" class="playertext">頭銜</td>
+                                                                      <td align="center" valign="middle" class="playerbg2"><span id="p_rankname"></span></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td align="right" class="playertext">等級</td>
+                                                                      <td align="center" valign="middle" class="playerbg2"><span id="p_lv"></span></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td align="right" class="playertext">經驗值</td>
+                                                                      <td align="center" valign="middle" class="playerbg2"> <span id="p_exp"></span></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td align="right" class="playertext">銀兩</td>
+                                                                      <td align="center" valign="middle" class="playerbg2"> <span id="p_money"></span></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td align="right" class="playertext">商城幣</td>
+                                                                      <td align="center" valign="middle" class="playerbg2"> <span id="p_r_money"></span></td>
+                                                                    </tr>
+                                                                </table>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="id">
+                                                                </table>
+                                                          </td>
+                                                        </tr>
+                                                  </table>
+                                                </td>                                               
+                                                <td width="3" class="bg22">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" height="3" class="bg23">
+                                                </td>
+                                                <td height="3" class="bg20">
+                                                </td>
+                                                <td width="3" height="3" class="bg24">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td height="4" colspan="3">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" height="3" class="bg19">
+                                                </td>
+                                                <td height="3" class="bg20">
+                                                </td>
+                                                <td width="3" height="3" class="bg21">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" class="bg22">
+                                                </td>
+                                                <td height="173">
+                                                    <table width="154" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td height="21" class="mission_title">
+                                                                任務
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="154" height="160" valign="top">
+                                                                <div class="mission" id="questionlist">
+                                                                    <a>沒有任務</a><br />
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="3" class="bg22">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" height="3" class="bg23">
+                                                </td>
+                                                <td height="3" class="bg20">
+                                                </td>
+                                                <td width="3" height="3" class="bg24">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td height="4" colspan="3">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" height="3" class="bg19">
+                                                </td>
+                                                <td height="3" class="bg20">
+                                                </td>
+                                                <td width="3" height="3" class="bg21">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" class="bg22">
+                                                </td>
+                                                <td height="115" align="left" valign="top">
+                                                	<div class="btn_about"><a href="http://www.1001ya.com.tw/a3kweb" target="_blank"><img src="http://i955.photobucket.com/albums/ae40/funland/images/btn_about.gif" class="btn_about_3"></a></div>
+<div class="btn_about"><a><img src="http://i955.photobucket.com/albums/ae40/funland/images/btn_about.gif" class="btn_about_4" id="lshopbtn"></a></div>
+<div class="btn_about"><a href="http://www.gamebase.com.tw/forum/60702" target="_blank"><img src="http://i955.photobucket.com/albums/ae40/funland/images/btn_about.gif" class="btn_about_1"></a></div>
+<div class="btn_about"><a href="msnim:add?contact=group131950@msnzone.cn" target="_blank"><img src="http://i955.photobucket.com/albums/ae40/funland/images/btn_about.gif" class="btn_about_2"></a></div>
+
+                                                </td>
+                                                <td width="3" class="bg22">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="3" height="3"  class="bg23">
+                                                </td>
+                                                <td height="3"  class="bg20">
+                                                </td>
+                                                <td width="3" height="3"  class="bg24">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="3">
+                                                </td>
+                                                <td height="3">
+                                                </td>
+                                                <td height="3">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="777" height="600">
+                                        <table width="777" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="99">
+                                                    <table width="777" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td width="642" height="99">
+                                                                <table width="642" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td height="50"  class="bg16">
+                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td width="67" height="26" class="news_title">
+                                                                                        傳令
+                                                                                    </td>
+                                                                                    <td height="26">
+                                                                                        <div class="news" id="anouce">
+                                                                                          
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="49" align="center" valign="middle"  class="bg17">
+                                                                            <div class="loading3" id="loading3">
+                                                                            </div>
+                                                                            <table width="630" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td width="90" height="39">
+                                                                                        <a class="btn_top" id="downtownbtn" name="downtownbtn">城內</a>
+                                                                                    </td>
+                                                                                    <td width="90" height="39">
+                                                                                        <a class="btn_top" id="moveit" name="moveit">移動</a>
+                                                                                    </td>
+                                                                                    <td width="90" height="39">
+                                                                                        <a class="btn_top" id="statusbtn" name="statusbtn">狀態</a>
+                                                                                    </td>
+                                                                                    <td width="90" height="39">
+                                                                                        <a class="btn_top" id="packbtn" name="packbtn">物品</a>
+                                                                                    </td>
+                                                                                    <td width="90" height="39">
+                                                                                        <a class="btn_top" id="teambtn" name="teambtn">組隊</a>
+                                                                                    </td>
+                                                                                    <td width="90" height="39">
+                                                                                        <a class="btn_top" id="guildbtn" name="guildbtn">義勇軍</a>
+                                                                                    </td>
+                                                                                    <td width="90" height="39">
+                                                                                        <a class="btn_top" id="eventbtn" name="eventbtn">活動</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td width="135" height="99" align="center" valign="middle"  class="bg18">
+                                                                <table border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="59" height="77">
+                                                                            <a class="btn_ru" id="savecash" target="_blank">儲值</a>
+                                                                        </td>
+                                                                        <td width="59" height="77">
+                                                                            <a class="btn_ru" id="storeindex">商城</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="374" bgcolor="#E8E5D9">
+                                                    <table border="0" align="center" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td height="360" class="main">
+                                                                <div name="maindiv" id="maindiv" scrolling="no" marginwidth="0" marginheight="0"
+                                                                    width="100%" height="100%">
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="127">
+                                                    <table width="777" border="0" cellpadding="0" cellspacing="0" bgcolor="#F5F4EE">
+                                                        <tr>
+                                                            <td width="135" height="127" align="right">
+                                                                <table id="shortcutbox" width="121" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td width="3" height="3"  class="bg19">
+                                                                        </td>
+                                                                        <td height="3"  class="bg20">
+                                                                        </td>
+                                                                        <td width="3" height="3"  class="bg21">
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td width="3"  class="bg22">
+                                                                        </td>
+                                                                        <td height="115" align="center" valign="middle">
+                                                                            <table width="115" border="0" cellspacing="2" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_7" name="shortcut_7">
+                                                                                        <a id="shortcut_img_7" class="shortcut">
+                                                                                            <div class="shortcut_7">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_8" name="shortcut_8">
+                                                                                        <a id="shortcut_img_8" class="shortcut">
+                                                                                            <div class="shortcut_8">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_9" name="shortcut_9">
+                                                                                        <a id="shortcut_img_9" class="shortcut">
+                                                                                            <div class="shortcut_9">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_4" name="shortcut_4">
+                                                                                        <a id="shortcut_img_4" class="shortcut">
+                                                                                            <div class="shortcut_4">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_5" name="shortcut_5">
+                                                                                        <a id="shortcut_img_5" class="shortcut">
+                                                                                            <div class="shortcut_5">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_6" name="shortcut_6">
+                                                                                        <a id="shortcut_img_6" class="shortcut">
+                                                                                            <div class="shortcut_6">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_1" name="shortcut_1">
+                                                                                        <a id="shortcut_img_1" class="shortcut">
+                                                                                            <div class="shortcut_1">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_2" name="shortcut_2">
+                                                                                        <a id="shortcut_img_2" class="shortcut">
+                                                                                            <div class="shortcut_2">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                    <td width="32" height="32" align="center" valign="middle" id="shortcut_3" name="shortcut_3">
+                                                                                        <a id="shortcut_img_3" class="shortcut">
+                                                                                            <div class="shortcut_3">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td width="3"  class="bg22">
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td width="3" height="3"  class="bg23">
+                                                                        </td>
+                                                                        <td height="3"  class="bg20">
+                                                                        </td>
+                                                                        <td width="3" height="3"  class="bg24">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td height="127">
+                                                                <table height="127" width="642" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table height="17" width="638" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td align="right">
+                                                                                        <table width="30" border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td height="17"  class="btn_downward">
+                                                                                                    
+                                                                                                </td>
+                                                                                                <td height="17" class="btn_upward">
+                                                                                                   
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                            <div id="chatdiv">
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="955">
+                            <table width="955" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="46" height="17"  class="bg10">
+                                    </td>
+                                    <td width="863" height="17"  class="bg12">
+                                    </td>
+                                    <td width="46" height="17"  class="bg11">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table width="17" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="29"  class="bg7">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="590" class="bg45">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="29"  class="bg9">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <div  >
+    </div>    
+    <div id="executionjq" name="executionjq" style="display: none">
+    </div>
+    <input type="hidden" id="plshit" />
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-312021-5");
+        pageTracker._trackPageview();
+    </script>
+</body>
+</html>

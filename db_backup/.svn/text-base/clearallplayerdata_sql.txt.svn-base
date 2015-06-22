@@ -1,0 +1,16 @@
+
+empty all player data:
+TRUNCATE `a3k_brohood`;
+TRUNCATE `a3k_fellow`;
+TRUNCATE `a3k_group`;
+TRUNCATE `a3k_group_invitation`;
+TRUNCATE `a3k_group_message`;
+TRUNCATE `a3k_player`;
+TRUNCATE `a3k_player_item`;
+TRUNCATE `a3k_player_store`;
+TRUNCATE `a3k_quest_status`;
+TRUNCATE `a3k_quest_time`;
+TRUNCATE `a3k_shortcut`;
+TRUNCATE `a3k_skill`;
+TRUNCATE `chat`;
+TRUNCATE `mail`;

@@ -1,0 +1,125 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.2
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Mar 14, 2009 at 07:56 AM
+-- Server version: 5.0.67
+-- PHP Version: 5.2.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+-- 
+-- Database: `a3k`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `a3k_player_item`
+-- 
+
+CREATE TABLE `a3k_player_item` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `p_id` int(10) unsigned NOT NULL,
+  `item_id` varchar(45) NOT NULL,
+  `item_eq` tinyint(1) default '0',
+  `item_stacknum` int(10) unsigned default '1',
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=97 ;
+
+-- 
+-- Dumping data for table `a3k_player_item`
+-- 
+
+INSERT INTO `a3k_player_item` VALUES (2, 1, 'g0001', 0, 25);
+INSERT INTO `a3k_player_item` VALUES (7, 2, 'i0001', 0, 22);
+INSERT INTO `a3k_player_item` VALUES (8, 2, 'c0003', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (13, 2, 'g0001', 0, 4);
+INSERT INTO `a3k_player_item` VALUES (14, 2, 'e0003', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (15, 2, 'a0002', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (16, 2, 'd0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (17, 2, 'e0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (18, 2, 'a0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (19, 1, 'e0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (21, 1, 'e0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (22, 1, 'e0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (23, 1, 'd0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (24, 1, 'a0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (25, 1, 'd0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (28, 1, 'a0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (29, 1, 'e0003', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (31, 1, 'a0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (32, 1, 'c0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (33, 1, 'c0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (34, 1, 'd0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (35, 1, 'd0003', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (36, 1, 'c0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (37, 1, 'c0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (38, 1, 'e0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (39, 1, 'e0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (40, 1, 'c0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (41, 1, 'a0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (42, 1, 'a0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (44, 2, 'd0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (45, 4, 'i0002', 0, 4);
+INSERT INTO `a3k_player_item` VALUES (46, 1, 'i0001', 0, 4);
+INSERT INTO `a3k_player_item` VALUES (47, 4, 'i0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (48, 4, 'c0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (49, 4, 'e0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (50, 4, 'b0002', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (51, 5, 'i0002', 0, 4);
+INSERT INTO `a3k_player_item` VALUES (52, 2, 'a0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (53, 5, 'c0002', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (54, 2, 'i0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (55, 4, 'b0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (56, 4, 'e0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (57, 5, 'd0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (58, 5, 'd0003', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (59, 5, 'e0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (60, 5, 'd0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (61, 5, 'a0003', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (62, 5, 'b0003', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (63, 5, 'e0002', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (64, 5, 'b0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (65, 5, 'e0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (66, 5, 'b0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (67, 5, 'd0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (68, 5, 'd0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (69, 5, 'b0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (70, 5, 'b0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (71, 5, 'd0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (72, 5, 'c0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (73, 5, 'c0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (74, 5, 'd0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (75, 5, 'i0001', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (76, 5, 'g0001', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (77, 1, 'a0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (78, 1, 'a0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (79, 1, 'b0003', 1, 1);
+INSERT INTO `a3k_player_item` VALUES (80, 1, 'c0003', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (82, 1, 'g0002', 0, 4);
+INSERT INTO `a3k_player_item` VALUES (83, 5, 'g0002', 0, 2);
+INSERT INTO `a3k_player_item` VALUES (84, 5, 'b0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (85, 5, 'b0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (86, 4, 'd0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (87, 2, 'b0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (88, 2, 'g0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (89, 3, 'a0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (90, 1, 'b0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (91, 3, 'c0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (92, 3, 'i0001', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (93, 3, 'a0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (94, 3, 'b0002', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (95, 6, 'a0001', 0, 1);
+INSERT INTO `a3k_player_item` VALUES (96, 6, 'a0002', 0, 1);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

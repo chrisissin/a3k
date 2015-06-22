@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<style type="text/css">
+
+a {
+	cursor: hand;
+	cursor: pointer;
+}
+.con_boxbg_01{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_39.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_02{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_38.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	background-repeat: repeat-x;
+}
+.con_boxbg_03{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_36.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}.con_boxbg_04{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_31.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 9px;
+}
+.con_boxbg_05{
+	margin: 0px;
+	height: 299px;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_40.gif);
+	background-repeat: repeat-x;
+	width: 414px;
+	padding: 0px;
+}
+.con_boxbg_06{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_37.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 7px;
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.con_boxbg_07{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_33.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_08{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_34.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	background-repeat: repeat-x;
+}
+.con_boxbg_09{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/type_5_35.gif);
+	margin: 0px;
+	padding: 0px;
+	height: 17px;
+	width: 52px;
+}
+.con_boxbg_10{
+	background-color: #CDC3B0;
+}
+.con_btn_off,.con_btn_off:link,.con_btn_off:visited,.con_btn_off:active{
+	display: block;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/con_btn_off.gif);
+	height: 15px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.con_btn_off:hover{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/con_btn_off_over.gif);
+}
+.con_btn,.con_btn:link,.con_btn:visited,.con_btn:active {
+	display: block;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/con_btn.gif);
+	height: 27px;
+	width: 40px;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	text-decoration: none;
+	line-height: 26px;
+	letter-spacing: 2px;
+	background-position: 0px 30px;
+}
+.con_btn:hover {
+	background-position: 0px 0px;
+}
+.con_btn_selected {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/con_btn.gif);
+	height: 26px;
+	width: 40px;
+	font-size: 12px;
+	line-height: 26px;
+	text-align: center;
+	color: #000000;
+	background-repeat: no-repeat;
+	background-position: 0px -30px;
+}
+.mix_btn,.mix_btn:link,.mix_btn:visited,.mix_btn:active {
+	display:block;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/mix_btn.gif);
+	background-repeat: repeat-x;
+	background-position: 0px -23px;
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 18px;
+	line-height: 21px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.mix_btn:hover {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/mix_btn.gif);
+	background-repeat: repeat-x;
+	background-position: 0px -44px;
+	color: #FFFFFF;
+}
+
+.mix_btn_selected {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/mix_btn.gif);
+	background-position: 0px 0px;
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	color: #000000;
+	line-height: 21px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+.mix_div2 {
+	height: 267px;
+	width: 158px;
+	overflow: auto;
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/mix_bg.gif);
+	margin-top: 6px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.mix_text3 ,.mix_text3:link ,.mix_text3:visited ,.mix_text3:active {
+	font-family: "新細明體", Garamond;
+	font-size: 12px;
+	line-height: 24px;
+	color: #000000;
+}
+.mix_text3:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+.add_bg14{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/add_07.gif);
+	background-repeat: repeat-x;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #dcdcdc;
+	border-left-color: #FFFFFF;
+	background-position: 0px 0px;
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 20px;
+	text-indent: 6px;
+	font-weight: 600;
+}
+.mix_text {
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	color: #603813;
+	text-decoration: none;
+	padding-right: 6px;
+	padding-left: 6px;
+	line-height: 18px;
+}
+.mix_text2 {
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	color: #603813;
+	text-decoration: none;
+	line-height: 14px;
+}
+.bag_showtext2 {
+	font-size: 12px;
+	color: #996633;
+	line-height: 17px;
+}
+.grouptext2{
+	font-size: 12px;
+	color: rgb(0,113,188);
+	font-family: "新細明體", Garamond;
+}
+.bag_btn ,.bag_btn:link ,.bag_btn:visited ,.bag_btn:active {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/bag_btn.gif);
+	background-repeat: repeat-x;
+	height: 20px;
+	width: 36px;
+	display: block;
+	cursor: hand;
+	cursor:point;
+	font-size: 12px;
+	color: rgb(147,124,97);
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #FFFFFF;
+}
+.bag_btn:hover {
+	border: 1px solid rgb(147,124,97);
+}
+.mix_div {
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/add_08.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	padding: 6px;
+	height: 144px;
+	overflow: auto;
+}
+.con_box {
+	height: 293px;
+	width: 404px;
+	overflow: hidden;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+.add_bg15{
+	background-image: url(http://a3k.1001ya.com.tw/a3k/images/add_08.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	padding: 6px;
+}
+.mix_btnbg {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+.fellow_test2 {
+	font-family: "新細明體", Arial;
+	font-size: 12px;
+	font-weight: 600;
+	color: #CC0000;
+	text-decoration: none;
+	padding-right: 6px;
+	padding-left: 6px;
+	line-height: 18px;
+}
+.mixtext4{
+	font-size: 12px;
+	color: rgb(0,113,188);
+	font-family: "新細明體", Garamond;
+	line-height: 17px;
+}
+
+</style>
+<head>
+<title></title>
+
+    </head>
+<body>
+<table width="430" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="52" height="17" class="con_boxbg_01"></td>
+        <td width="326" height="17" class="con_boxbg_02"></td>
+        <td width="52" height="17" class="con_boxbg_03"><table width="52" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="30" height="10"></td>
+            <td width="22" height="10"> <a  class="con_btn_off" id="closebtn" name="closebtn" ></a></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="9" height="326" class="con_boxbg_04"></td>
+        <td width="414" height="326"><table width="414" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="27" class="con_boxbg_10"><table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="40" height="27"><a class="con_btn" id="" name="" >合成</a></td>
+                  <td width="40" height="27" class="con_btn_selected"><a id="" name="" >焠鍊</a></td>
+                  </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="299" class="con_boxbg_05">
+            	<div class="con_box">
+<!-- start the meat -->
+<!-- end the meat -->
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="170" height="295" align="left" valign="top" ><table width="170" border="0" cellpadding="0" cellspacing="0" class="mix_btnbg">
+        <tr>
+          <td><table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="44" height="20" align="center" valign="bottom" class="mix_btn_selected"><a id="a" name="" >裝備</a></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+      <div class="mix_div2">
+      <span><a class="mix_text3">左青龍</a></span><br />
+      <span><a class="mix_text3">右白虎</a></span><br />
+      <span><a class="mix_text3">打狗棒</a></span><br />
+      </div></td>
+    <td width="14" height="295"></td>
+    <td width="220" height="295" align="left" valign="top"><table width="220" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="273" align="left" valign="top"><table width="220" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="left" valign="middle" class="add_bg14">合成材料</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" class="add_bg15"><span class="mix_text">淬鍊石</span><br />
+                  <span class="fellow_test2">
+                    <input name="input" type="checkbox" value="" />
+                    使用混元石</span><br />
+                <br />
+              </td>
+            </tr>
+          </table>
+            <table width="220" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="left" valign="middle" class="add_bg14">物品屬性</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top"><div class="mix_div"><span class="mix_text2">為了感念屈原犧牲自己投河汨羅江，讓今天的你我有粽子可吃，龍舟可划，連假可放，因此南華老仙我決定犧牲自己的假期，邀請大家一起來個「端午包粽趴」！</span><br />
+                        <br />
+                        <table border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td width="60" height="90" align="right" valign="top" class="bag_showtext2">攻擊力：<br />
+                              防禦力：<br />
+                              力量：<br />
+                              根骨：<br />
+                              體魄：</td>
+                            <td width="50" height="90" align="left" valign="top" class="mixtext4">7777<br />
+                              77<br />
+                              77<br />
+                              77<br />
+                              77</td>
+                            <td width="60" height="90" align="right" valign="top" class="bag_showtext2">速度：<br />
+                              智力：<br />
+                              HP：<br />
+                              MANA：<br /></td>
+                            <td width="50" height="90" align="left" valign="top" class="mixtext4">7777<br />
+                              77<br />
+                              77<br />
+                              77</td>
+                          </tr>
+                        </table>
+                </div></td>
+              </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td height="22" align="right" valign="middle"><table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="36" height="20"><a class="bag_btn">確認</a></td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+            	</div></td>
+          </tr>
+        </table></td>
+        <td width="7" height="326" class="con_boxbg_06"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>
+    	
+    	<table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="52" height="17" class="con_boxbg_07"></td>
+        <td width="326" height="17" class="con_boxbg_08"></td>
+        <td width="52" height="17" class="con_boxbg_09"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

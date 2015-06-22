@@ -1,0 +1,18 @@
+
+INSERT INTO `a3k`.`chatbk` ( content ,  guid , timestamp , cfrom, cto , comment )
+SELECT  content , guid , timestamp , cfrom, cto , comment 
+FROM `a3k`.`chat` ; 
+
+TRUNCATE TABLE `chat`;
+
+ALTER TABLE `chatbk` ADD `channel` TINYINT( 3 ) NULL DEFAULT '0' AFTER `content` 
+ALTER TABLE `chat` ADD `channel` TINYINT( 3 ) NULL DEFAULT '0' AFTER `content` 
+
+ ALTER TABLE `chat` CHANGE `content` `content` VARCHAR( 2000 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL  ;
+ ALTER TABLE `chatbk` CHANGE `content` `content` VARCHAR( 2000 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL  ;
+
+ALTER TABLE `chat` ADD `msg` VARCHAR( 1000 ) NULL AFTER `content` ;
+ALTER TABLE `chatbk` ADD `msg` VARCHAR( 1000 ) NULL AFTER `content` ;
+
+ALTER TABLE `a3k_items` ADD `item_ef_exp` INT( 10 ) NULL DEFAULT '0' COMMENT '代表增加多少經驗值' AFTER `item_ef_mn` ;
+

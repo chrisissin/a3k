@@ -1,0 +1,6 @@
+ALTER TABLE `a3k_items` ADD `p_packsize_1` INT( 11 ) NULL DEFAULT '0' COMMENT '背包增加type1',
+ADD `p_packsize_2` INT( 11 ) NULL DEFAULT '0' COMMENT '背包增加type2',
+ADD `p_packsize_3` INT( 11 ) NULL DEFAULT '0' COMMENT '背包增加type3',
+ADD `p_packsize_4` INT( 11 ) NULL DEFAULT '0' COMMENT '背包增加type4';
+
+ALTER TABLE `a3k_items` ADD `p_money` INT( 10 ) NULL DEFAULT '0' COMMENT '遊戲幣';

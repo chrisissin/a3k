@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <title>Age of 3 Kingdoms</title>
+    <link href="css/a3k.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <table width="760" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="465" height="360" class="map">
+                <ul class="map">
+                    <li class="zone">
+                        <table width="465" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td height="360">
+                                    <img src="images/map.jpg" width="465" height="360" border="0" usemap="#Map" />
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="location">
+                        <table width="185" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td width="60" height="25" class="location_text">
+                                    目前位於
+                                </td>
+                                <td width="40" class="location_text2">
+                                    <span id="nowatstate" name="nowatstate"></span>
+                                </td>
+                                <td class="location_text">
+                                    <span id="nowatciti" name="nowatciti"></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="btn2" id="mapbtn2" name="mapbtn2" >
+                        <div class="btnbg2">
+                        </div>
+                    </li>
+                    <li class="btn3" id="mapbtn3" name="mapbtn3"  >
+                        <div class="btnbg3">
+                        </div>
+                    </li>
+                    <li class="btn4" id="mapbtn4" name="mapbtn4" >
+                        <div class="btnbg4">
+                        </div>
+                    </li>
+                    <li class="btn5" id="mapbtn5" name="mapbtn5" >
+                        <div class="btnbg5">
+                        </div>
+                    </li>
+                    <li class="btn6" id="mapbtn6" name="mapbtn6" >
+                        <div class="btnbg6">
+                        </div>
+                    </li>
+                    <li class="btn7" id="mapbtn7" name="mapbtn7" >
+                        <div class="btnbg7">
+                        </div>
+                    </li>
+                    <li class="btn8" id="mapbtn8" name="mapbtn8" >
+                        <div class="btnbg8">
+                        </div>
+                    </li>
+                    <li class="btn9" id="mapbtn9" name="mapbtn9" >
+                        <div class="btnbg9">
+                        </div>
+                    </li>
+                    <li class="btn10" id="mapbtn10" name="mapbtn10" >
+                        <div class="btnbg10">
+                        </div>
+                    </li>
+                    <li class="btn11" id="mapbtn11" name="mapbtn11" >
+                        <div class="btnbg11">
+                        </div>
+                    </li>
+                    <li class="btn12" id="mapbtn12" name="mapbtn12" >
+                        <div class="btnbg12">
+                        </div>
+                    </li>
+                    <li class="btn13" id="mapbtn13" name="mapbtn13" >
+                        <div class="btnbg13">
+                        </div>
+                    </li>
+                    <li class="btn14" id="mapbtn14" name="mapbtn14" >
+                        <div class="btnbg14">
+                        </div>
+                    </li>
+                    <li class="btn15" id="mapbtn15" name="mapbtn15" >
+                        <div class="btnbg15">
+                        </div>
+                    </li>
+                </ul>
+            </td>
+            <td width="150" height="360">
+                <table width="145" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+                            <table width="145" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="52" height="17" class="map_boxbg_01">
+                                    </td>
+                                    <td width="41" height="17" class="map_boxbg_02">
+                                    </td>
+                                    <td width="52" height="17" class="map_boxbg_03">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="145" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="9" height="326" class="map_boxbg_04">
+                                    </td>
+                                    <td width="128" height="326" class="map_boxbg_05">
+                                        <table width="128" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="26" align="center">
+                                                    <span class="location_text">移動至</span> <span class="location_text2" id="movetostate"
+                                                        name="movetostate"></span><span class="location_text">的</span> <span class="location"
+                                                            id="movetociti" name="movetociti"></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <div class="place_listbox" id="place_listbox" name="place_listbox">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="28" align="center" valign="top">
+                                                    <a   class="map_btn_move" id="map_btn_move" name="map_btn_move" >
+                                                    </a>
+                                                </td>
+                                                <!---->
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="8" height="326" class="map_boxbg_06">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="145" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="52" height="17" class="map_boxbg_07">
+                                    </td>
+                                    <td width="41" height="17" class="map_boxbg_08">
+                                    </td>
+                                    <td width="52" height="17" class="map_boxbg_09">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="145">
+                <table width="145" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+                            <table width="145" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="52" height="17" class="map_boxbg_01">
+                                    </td>
+                                    <td width="41" height="17" class="map_boxbg_02">
+                                    </td>
+                                    <td width="52" height="17" class="map_boxbg_03">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="145" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="9" height="326" class="map_boxbg_04">
+                                    </td>
+                                    <td width="128" height="326" align="center" valign="top" class="map_boxbg_05">
+                                        <table width="105" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="28">
+                                                    <a   class="map_btn_fight" id="map_btn_fight" name="map_btn_fight" >
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="28">
+                                                    <a   class="map_btn_rest" id="map_btn_rest" name="map_btn_rest" ></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="28">
+                                                    <a   class="map_btn_city" id="map_btn_city" name="map_btn_city" ></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="28">
+                                                    <a   class="map_btn_find"></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="4">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="22" class="map_title">
+                                                    隊友
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="70" align="left" class="location_text">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="22" class="map_title">
+                                                    目前有誰
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="map_findbox">
+                                                        <a   class="place_list"></a>
+                                                        <br />
+                                                        <a   class="place_list"></a>
+                                                        <br />
+                                                        <a   class="place_list"></a>
+                                                        <br />
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="8" height="326" class="map_boxbg_06">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="145" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="52" height="17" class="map_boxbg_07">
+                                    </td>
+                                    <td width="41" height="17" class="map_boxbg_08">
+                                    </td>
+                                    <td width="52" height="17" class="map_boxbg_09">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <map name="Map" id="Map">
+        <!--02-->
+        <area shape="poly" id="maparea2" name="maparea2" coords="260,50,266,56,292,43,300,50,317,46,324,49,327,44,347,41,373,11,370,46,390,29,418,28,428,21,408,13,406,1,364,1,343,27,321,27,318,19,309,24,302,22,287,26,280,42"
+              />
+        <!--03-->
+        <area   id="maparea3" name="maparea3" shape="poly" coords="355,109,385,75,393,76,397,65,378,62,367,60,354,73,333,69,318,72,316,90,341,90,344,102" />
+        <!--04-->
+        <area shape="poly" id="maparea4" name="maparea4"  coords="273,112,281,115,316,90,317,73,334,71,321,49,316,45,301,50,292,45,277,51,275,65,282,67,278,92,280,99"
+              />
+        <!--05-->
+        <area shape="poly"  id="maparea5" name="maparea5"  coords="272,111,280,101,278,94,281,69,275,64,275,51,266,55,260,51,249,65,236,64,234,72,240,78,233,92,241,87,262,96,258,103"
+              />
+        <!--06-->
+        <area shape="poly"  id="maparea6" name="maparea6" coords="369,133,341,140,327,130,325,118,335,113,332,110,332,99,341,99,356,108"
+              />
+        <!--07-->
+        <area shape="poly"  id="maparea7" name="maparea7" coords="331,100,341,99,341,91,316,90,280,116,291,130,299,123,314,124,321,111,323,95"
+              />
+        <!--08-->
+        <area shape="poly" id="maparea8" name="maparea8"  coords="340,140,327,131,325,118,333,113,331,109,333,101,324,95,315,124,299,124,291,130,279,115,270,135,281,144,283,160,298,160,292,171,299,177,314,165,315,150"
+              />
+        <!--09-->
+        <area shape="poly"  id="maparea9" name="maparea9"  coords="280,114,273,110,258,104,261,97,241,88,234,93,235,112,231,127,225,127,238,143,249,133,269,134"
+              />
+        <!--10-->
+        <area shape="poly"  id="maparea10" name="maparea10" coords="238,144,224,128,231,126,235,112,224,120,189,101,167,103,143,115,142,138,201,133,231,152"
+              />
+        <!--11-->
+        <area shape="poly" id="maparea11" name="maparea11"  coords="182,103,168,103,142,115,140,126,125,122,106,52,69,54,11,31,39,2,88,9,94,2,124,2"
+              />
+        <!--12-->
+        <area shape="poly"  id="maparea12" name="maparea12"  coords="357,286,385,261,383,239,396,211,403,209,407,183,397,178,369,133,316,149,314,166,300,177,298,185,310,199,291,209,285,234,300,281,306,286,332,280"
+              />
+        <!--13-->
+        <area shape="poly"  id="maparea13" name="maparea13"  coords="305,284,299,280,285,237,290,209,310,199,299,186,299,177,292,171,297,161,282,161,280,144,269,135,250,134,239,142,233,151,208,138,205,152,234,180,216,196,221,228,210,228,204,234,213,239,208,246,208,273,261,298"
+              />
+        <!--14-->
+        <area shape="poly"  id="maparea14" name="maparea14"  coords="207,275,208,248,212,241,204,235,211,228,220,228,216,196,234,182,206,152,206,136,199,133,143,138,128,148,121,195,63,273,140,335,176,301,172,287,177,280,192,285"
+              />
+        <!--15-->
+        <area shape="poly"  id="maparea15" name="maparea15"  coords="161,358,141,335,176,302,172,287,179,282,192,284,208,275,260,298,304,286,333,279,355,287,270,323,246,342,203,332,178,352"
+              />
+        <area shape="rect"  id="cleararea" name="cleararea"  coords="0,0,500,500"
+              />
+    </map>

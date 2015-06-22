@@ -1,0 +1,7 @@
+AuthUserFile c:/AppServ/Apache2.2/bin/passwd.txt
+AuthName "This is 1001 area"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>

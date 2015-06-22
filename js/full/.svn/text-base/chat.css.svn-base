@@ -1,0 +1,94 @@
+@charset "utf-8";
+/*訊息顏色*/
+.msg0 {	/* public */
+	color:#996600;
+}
+
+.msg1 {	/* local */
+	color:#000000;
+}
+
+.msg2 {/* whipser */
+	color:#FF99FF;
+}
+
+.msg3 {/* guild */
+	color:#0000FF;
+}
+
+.msg4 {/* team */
+	color:#00FF00;
+}
+
+.msg5 {/* system */
+	color:#FF0000;
+}
+
+.p_menu{
+	text-decoration:underline;
+}
+
+/*選單*/
+#p_menu{
+	position:absolute;
+	left:0px;
+}
+
+#func_menu{
+	position:absolute;
+	left:0px;
+}
+
+#blacklist{
+	position:absolute;
+	left:0px;
+}
+
+#blacklist table{
+	width:120px;
+	height:20px;
+}
+#blacklist tbody{
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.list {
+	border:1px solid #663300;
+	list-style:none;
+}
+
+.list th{
+	font-size:70%;
+	text-align:center;
+	border:1px solid #663300;
+	background-image:url(../images/btn_down_over.gif);
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-2px;
+}
+
+.list td{
+	font-size:70%;
+	text-align:center;
+	border:1px solid #663300;
+	background-image:url(../images/btn_down.gif);
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-2px;
+}
+.list a{
+	text-decoration:none;
+	width:100%;
+	text-align:center;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.list a, .list a:visited .list a:active{
+	color:#663300;
+}
+.list a:hover{
+	color:#000000;
+}

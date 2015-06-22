@@ -1,0 +1,15 @@
+//拍賣新增
+
+ALTER TABLE `a3k_player_item` ADD `auction_id` VARCHAR( 10 ) NOT NULL DEFAULT '0' COMMENT '拍賣ID',
+ADD `auction_time` DATETIME NULL COMMENT '拍賣時間';
+
+CREATE TABLE `a3k_auction` (
+`id` INT( 10 ) NOT NULL AUTO_INCREMENT COMMENT '拍賣ID',
+`pack_id` VARCHAR( 10 ) NOT NULL COMMENT '物品欄ID',
+`price` SMALLINT( 10 ) NOT NULL COMMENT '價格',
+`much` SMALLINT( 4 ) NOT NULL COMMENT '數量',
+`set_time` TIMESTAMP ON UPDATE CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '拍賣時間',
+`buyer_id` VARCHAR( 10 ) NULL COMMENT '買家ID',
+`buy_time` DATETIME NULL COMMENT '買下時間',
+INDEX ( `id` )
+) ENGINE = innodb;

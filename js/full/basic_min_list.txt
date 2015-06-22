@@ -1,0 +1,7 @@
+all htmls pls use "http://compressor.ebiene.de/" to minify
+
+then copy n paste htmls to published
+
+
+then css N js w "(c)"
+then copy n paste js N css to published

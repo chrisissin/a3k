@@ -1,0 +1,11 @@
+INSERT INTO `a3k`.`announcement` (
+`id` ,
+`utime` ,
+`timestamp` ,
+`content`
+)
+VALUES (
+NULL , UNIX_TIMESTAMP( ) + 30 ,
+CURRENT_TIMESTAMP ,
+ '系統維修中 請5分鐘回來'
+)

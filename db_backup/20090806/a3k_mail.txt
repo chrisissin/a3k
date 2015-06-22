@@ -1,0 +1,14 @@
+CREATE TABLE `mail` (
+`id` INT NOT NULL AUTO_INCREMENT ,
+`guid` VARCHAR( 45 ) NULL ,
+`sender` VARCHAR( 10 ) NULL ,
+`recv` VARCHAR( 10 ) NULL ,
+`createdate` DATETIME NULL ,
+`expireddate` DATETIME NULL ,
+`title` VARCHAR( 500 ) NULL ,
+`content` TEXT NULL ,
+`timestamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+INDEX ( `id` )
+) ENGINE = innodb COMMENT = 'mail';
+
+ALTER TABLE `mail` ADD `readdate` DATETIME NULL COMMENT '讀取時間' AFTER `createdate` ;

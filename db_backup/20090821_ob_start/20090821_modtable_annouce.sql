@@ -1,0 +1,1 @@
+ ALTER TABLE `announcement` ADD `serverout` VARCHAR( 100 ) NULL COMMENT 'server out msg if null is not out' AFTER `content`  

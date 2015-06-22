@@ -1,0 +1,45 @@
+﻿chat sysmsg:
+
+INSERT INTO `chat` (
+`content` , `channel` , `cfrom` , `guid` , `cto` , `msg`
+)
+VALUES (
+'1250843844,-1,5,-1,[公告] Some Thing\r\n' , '5' ,'-1' , UUID(), '-1' , '[公告] Some Thing' 
+)
+	
+	
+annouce:
+
+INSERT INTO `a3k`.`announcement` (
+`id` ,
+`utime` ,
+`timestamp` ,
+`content`
+)
+VALUES (
+NULL , UNIX_TIMESTAMP( ) + 30 ,
+CURRENT_TIMESTAMP ,
+ 'HIHIHIHI'
+)	
+
+lock user:
+
+update a3k_player set p_locktime = NOW() where p_name = 'r2d20'
+
+release user :
+
+update a3k_player set p_locktime = null , p_capt_attempts = 0 where p_name = 'r2d20'
+
+server down:
+
+INSERT INTO `a3k`.`announcement` (`id` ,`utime` ,`timestamp` ,`content` ,`serverout`)VALUES (NULL , UNIX_TIMESTAMP( ) + 30 ,CURRENT_TIMESTAMP , 'something', 'something' )
+
+server back up:
+
+INSERT INTO `a3k`.`announcement` (`id` ,`utime` ,`timestamp` ,`content` ,`serverout`)VALUES (NULL , UNIX_TIMESTAMP( ) + 30 ,CURRENT_TIMESTAMP , 'something', null )
+
+
+delete user datas:
+
+UPDATE `a3k`.`a3k_player` SET `f_1001ya` = 'deleteduser' WHERE `a3k_player`.`p_name` = '' LIMIT 1 ;
+

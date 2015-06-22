@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script src="./js/city.js"></script>
+<style type="text/css">
+a {
+	cursor: pointer;
+	cursor: hand;
+}
+.city {
+	height: 360px;
+	width: 760px;
+	position: relative;
+	z-index: 1;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city/city_bg_140.jpg);
+}
+#city_box1{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_1.gif);
+	height: 102px;
+	width: 135px;
+	background-position: 0px 0px;
+	position: absolute;
+	left: 538px;
+	top: 48px;
+	z-index: 3;
+}
+#city_box1:hover{
+	background-position: -135px 0px;
+	top: 46px;
+}
+#city_box2{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_2.gif);
+	height: 90px;
+	width: 144px;
+	background-position: 0px 0px;
+	position: absolute;
+	left: 35px;
+	top: 65px;
+	z-index: 4;
+}
+#city_box2:hover{
+	background-position: -144px 0px;
+	top: 63px;
+}
+#city_box3{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_3.gif);
+	height: 105px;
+	width: 185px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 216px;
+	left: 96px;
+	z-index: 2;
+}
+#city_box3:hover{
+	background-position: -185px 0px;
+	top: 214px;
+}
+#city_box5{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_5.gif);
+	height: 67px;
+	width: 87px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 33px;
+	left: 468px;
+	z-index: 2;
+}
+#city_box5:hover{
+	background-position: -87px 0px;
+	top: 31px;
+}
+#city_box6{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_6.gif);
+	height: 96px;
+	width: 130px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 40px;
+	left: 165px;
+	z-index: 3;
+}
+#city_box6:hover{
+	background-position: -130px 0px;
+	top: 38px;
+}
+#city_box7{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_7.gif);
+	height: 88px;
+	width: 161px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 28px;
+	left: 295px;
+	z-index: 2;
+}
+#city_box7:hover{
+	background-position: -161px 0px;
+	top: 26px;
+}
+#city_box12{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_12.gif);
+	height: 148px;
+	width: 185px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 104px;
+	left: 567px;
+	z-index: 2;
+}
+#city_box12:hover{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_12.gif);
+	height: 148px;
+	width: 185px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 104px;
+	left: 567px;
+	z-index: 2;
+}
+#city_box12:hover{
+	background-position: -185px;
+	top: 102px;
+}
+#city_box13{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_13.gif);
+	height: 90px;
+	width: 216px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 236px;
+	left: 475px;
+	z-index: 3;
+}
+#city_box13:hover{
+	background-position: -216px 0px;
+	top: 234px;
+}
+#city_box16{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_16.gif);
+	height: 60px;
+	width: 136px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 163px;
+	left: 65px;
+	z-index: 3;
+}
+#city_box16:hover{
+	background-position: -136px 0px;
+	top: 161px;
+}
+#city_box140{
+	background-image: url(http://i955.photobucket.com/albums/ae40/funland/images/city_140.gif);
+	height: 178px;
+	width: 202px;
+	background-position: 0px 0px;
+	position: absolute;
+	top: 172px;
+	left: 275px;
+	z-index: 1;
+}
+#city_box140:hover{
+	background-position: -202px 0px;
+	top: 170px;
+}
+
+</style>
+</head>
+
+<body>
+<table width="760" height="360" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <div class="city">
+      <a><div id="city_box1" name="city_box1"></div></a>
+      <a><div id="city_box2" name="city_box2"></div></a>
+      <a><div id="city_box3" name="city_box3"></div></a>
+      <a><div id="city_box5" name="city_box5"></div></a>
+      <a><div id="city_box6" name="city_box6"></div></a>
+      <a><div id="city_box7" name="city_box7"></div></a>
+      <a><div id="city_box12" name="city_box12"></div></a>
+      <a><div id="city_box13" name="city_box13"></div></a>
+      <a><div id="city_box16" name="city_box16"></div></a>
+      <a><div id="city_box140" name="city_box140"></div></a>
+      </div></td>
+  </tr>
+</table>
+</body>
+</html>

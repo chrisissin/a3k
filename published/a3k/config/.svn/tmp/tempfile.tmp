@@ -1,0 +1,29 @@
+<?php
+$a3k_config["serverout"]="";//server maintainance kick all player "" == not //"系統維修中 請稍後回來 "
+$a3k_config["newb_allow_lv"]=5;//newb task allowed level
+$a3k_config["enable_capt"]=1; //隨機問答 1開 0關
+$a3k_config["capt_chance"]=2;//隨機問答出現機率 %
+$a3k_config["attempts"]=5; //允許回答次數
+$a3k_config["unfreeze"]=3600; //多久解開帳號，預設 3600 second = 1 hour
+$a3k_config["enable_capt_lock"]=1; //隨機鎖 1開 0關
+
+<<<<<<< .mine
+$a3k_config["logouturl"]= "http://www.1001ya.com.tw/a3kweb/index.html";//�n�X��s�������}
+$a3k_config["loginaddress"]= "http://www.1001ya.com.tw/a3kweb/";//"http://funinternal/a3kweb/"; //
+=======
+$a3k_config["logouturl"]= "http://funinternal/a3kweb/";// "http://www.1001ya.com.tw/a3kweb/index.html";//登出後連結的網址
+$a3k_config["loginaddress"]= "http://funinternal/a3kweb/"; //"http://www.1001ya.com.tw/a3kweb/"
+>>>>>>> .r166
+$a3k_config["Cashaddress"]="https://www.mycard520.com.tw/mycardstore/store.aspx?gameid=1001ya";
+<<<<<<< .mine
+$a3k_config["hinet"]="http://a3k.1001ya.com.tw/a3k/";//"http://funinternal:88/a3k/";//
+$a3k_config["net"]= "http://a3k.1001ya.com.tw/";//"http://funinternal:88";//
+$a3k_config["hostaddress"] = "http://www.1001ya.com.tw/";//"http://funinternal/";//
+$a3k_config["rootdo"] = ".1001ya.com.tw"//"";//
+=======
+$a3k_config["hinet"]="http://funinternal:88/a3k/";//"http://a3k.1001ya.com.tw/a3k/"
+$a3k_config["net"]= "http://funinternal:88";//"http://a3k.1001ya.com.tw/";
+$a3k_config["hostaddress"] ="http://funinternal/";//"http://www.1001ya.com.tw/";
+$a3k_config["rootdo"] = "";//".1001ya.com.tw"
+>>>>>>> .r166
+?>

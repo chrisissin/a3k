@@ -1,0 +1,234 @@
+@charset "utf-8";
+a:link ,a:visited ,a:active {
+	cursor: pointer;
+	cursor: pointer;
+}
+a:hover {
+	cursor: pointer;
+	cursor: pointer;
+}
+.city {
+	height: 360px;
+	width: 760px;
+	position: relative;
+	z-index: 1;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(../images/city/city_140.jpg);
+}
+.city li {
+	position: absolute;
+	list-style-type: none;
+	width: 2px;
+}
+.city li.box1/*商舖*/{
+	z-index: 6;
+	height: 90px;
+	width: 161px;
+	margin: 0px;
+	top: 227px;
+	left: 465px;
+}
+.city li.box2/*鐵匠舖*/{
+	z-index: 4;
+	height: 84px;
+	width: 135px;
+	margin: 0px;
+	top: 165px;
+	left: 600px;
+}
+.city li.box3/*客棧：住宿*/{
+	z-index: 6;
+	height: 98px;
+	width: 181px;
+	margin: 0px;
+	top: 223px;
+	left: 83px;
+}
+.city li.box4/*拍賣*/{
+	z-index: 3;
+	height: 87px;
+	width: 152px;
+	margin: 0px;
+	top: 105px;
+	left: 600px;
+}
+.city li.box5/*金榜*/{
+	z-index: 1;
+	height: 61px;
+	width: 81px;
+	margin: 0px;
+	top: 35px;
+	left: 498px;
+}
+.city li.box6/*錢莊*/{
+	z-index: 4;
+	height: 89px;
+	width: 122px;
+	margin: 0px;
+	top: 140px;
+	left: 30px;
+}
+.city li.box7/*衙門*/{
+	z-index: 1;
+	height: 85px;
+	width: 161px;
+	margin: 0px;
+	top: 0px;
+	left: 310px;
+}
+.city li.box8/*酒舖*/{
+	z-index: 2;
+	height: 78px;
+	width: 110px;
+	margin: 0px;
+	top: 93px;
+	left: 190px;
+}
+.city li.box9/*軍團*/{
+	z-index: 1;
+	height: 94px;
+	width: 187px;
+	margin: 0px;
+	top: 0px;
+	left: 460px;
+}
+.city li.box10/*墨家大宅*/{
+	z-index: 2;
+	height: 80px;
+	width: 222px;
+	margin: 0px;
+	top: 38px;
+	left: 280px;
+}
+.city li.box12/*標局*/{
+	z-index: 3;
+	height: 145px;
+	width: 183px;
+	margin: 0px;
+	top: 28px;
+	left: 100px;
+}
+.city li.box13/*商城*/{
+	z-index: 5;
+	height: 87px;
+	width: 217px;
+	margin: 0px;
+	top: 93px;
+	left: 492px;
+}
+.city li.box140/*城門：出城*/{
+	z-index: 6;
+	height: 172px;
+	width: 195px;
+	margin: 0px;
+	top: 188px;
+	left: 280px;
+}
+
+/*MouseOver效果*/
+.city_box1 ,.city_box1:link ,.city_box1:visited ,.city_box1:active/*商舖*/{
+	background-image: url(../images/city/city_1.gif);
+	height: 90px;
+	width: 161px;
+}
+.city_box1:hover{	
+	background-image: url(../images/city/city_1_over.gif);
+}
+.city_box2 ,.city_box2:link ,.city_box2:visited ,.city_box2:active/*鐵匠舖*/{
+	background-image: url(../images/city/city_2.gif);
+	height: 84px;
+	width: 135px;
+}
+.city_box2:hover{	
+	background-image: url(../images/city/city_2_over.gif);
+}
+.city_box3 ,.city_box3:link ,.city_box3:visited ,.city_box3:active/*客棧*/{
+	background-image: url(../images/city/city_3.gif);
+	height: 98px;
+	width: 181px;
+}
+.city_box3:hover{	
+	background-image: url(../images/city/city_3_over.gif);
+}
+.city_box4 ,.city_box4:link ,.city_box4:visited ,.city_box4:active/*拍賣*/{
+	background-image: url(../images/city/city_4.gif);
+	height: 87px;
+	width: 152px;
+}
+.city_box4:hover{	
+	background-image: url(../images/city/city_4_over.gif);
+}
+.city_box5 ,.city_box5:link ,.city_box5:visited ,.city_box5:active/*金榜*/{
+	background-image: url(../images/city/city_5.gif);
+	height: 61px;
+	width: 81px;
+}
+.city_box5:hover{	
+	background-image: url(../images/city/city_5_over.gif);
+}
+.city_box6 ,.city_box6:link ,.city_box6:visited ,.city_box6:active/*錢莊*/{
+	background-image: url(../images/city/city_6.gif);
+	height: 89px;
+	width: 122px;
+}
+.city_box6:hover{	
+	background-image: url(../images/city/city_6_over.gif);
+}
+.city_box7 ,.city_box7:link ,.city_box7:visited ,.city_box7:active/*衙門*/{
+	background-image: url(../images/city/city_7.gif);
+	height: 85px;
+	width: 161px;
+}
+.city_box7:hover{	
+	background-image: url(../images/city/city_7_over.gif);
+}
+.city_box8 ,.city_box8:link ,.city_box8:visited ,.city_box8:active/*酒舖*/{
+	background-image: url(../images/city/city_8.gif);
+	height: 78px;
+	width: 110px;
+}
+.city_box8:hover/*酒舖*/{
+	background-image: url(../images/city/city_8_over.gif);
+}
+.city_box9 ,.city_box9:link ,.city_box9:visited ,.city_box9:active/*軍團*/{
+	background-image: url(../images/city/city_9.gif);
+	height: 94px;
+	width: 187px;
+}
+.city_box9:hover{	
+	background-image: url(../images/city/city_9_over.gif);
+}
+.city_box10 ,.city_box10:link ,.city_box10:visited ,.city_box10:active/*墨家大宅*/{
+	background-image: url(../images/city/city_10.gif);
+	height: 80px;
+	width: 222px;
+}
+.city_box10:hover{	
+	background-image: url(../images/city/city_10_over.gif);
+}
+.city_box12 ,.city_box12:link ,.city_box12:visited ,.city_box12:active/*標局*/{
+	background-image: url(../images/city/city_12.gif);
+	height: 145px;
+	width: 183px;
+}
+.city_box12:hover{	
+	background-image: url(../images/city/city_12_over.gif);
+}
+.city_box13 ,.city_box13:link ,.city_box13:visited ,.city_box13:active/*商城*/{
+	background-image: url(../images/city/city_13.gif);
+	height: 87px;
+	width: 217px;
+}
+.city_box13:hover{	
+	background-image: url(../images/city/city_13_over.gif);
+}
+.city_box140 ,.city_box140:link ,.city_box140:visited ,.city_box140:active/*墨家邨*/{
+	background-image: url(../images/city/city_140.gif);
+	height: 172px;
+	width: 195px;
+}
+.city_box140:hover{	
+	background-image: url(../images/city/city_140_over.gif);
+}
